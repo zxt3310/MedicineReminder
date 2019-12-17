@@ -18,11 +18,14 @@
 @end
 
 @implementation ATMainTabViewController
+{
+    NSInteger lastIdx;
+}
 
 - (void)viewDidLoad{
     [super viewDidLoad];
     //构造配置字典
-    NSArray <NSDictionary *> *vcDicAry = @[@{@"vc":[[TakeMedicienVC alloc] init],@"normalImg":@"med_n",@"selectImg":@"med_p",@"itemTitle":@"药品"},@{@"vc":[[UIViewController alloc] init],@"normalImg":@"add",@"selectImg":@"add",@"itemTitle":@"新增"},@{@"vc":[[TakeMedAlertVC alloc] init],@"normalImg":@"plan_n",@"selectImg":@"plan_p",@"itemTitle":@"提醒"}];
+    NSArray <NSDictionary *> *vcDicAry = @[@{@"vc":[[TakeMedicienVC alloc] init],@"normalImg":@"med_n",@"selectImg":@"med_p",@"itemTitle":@"药品"},@{@"vc":[[UIViewController alloc] init],@"normalImg":@"add",@"selectImg":@"add",@"itemTitle":@""},@{@"vc":[[TakeMedAlertVC alloc] init],@"normalImg":@"plan_n",@"selectImg":@"plan_p",@"itemTitle":@"提醒"}];
     //构造配置模型数组
     NSMutableArray *tabBarConfs = [NSMutableArray array];
     //构造页面数组
@@ -33,10 +36,12 @@
         model.itemTitle = [obj objectForKey:@"itemTitle"];
         model.selectImageName = [obj objectForKey:@"selectImg"];
         model.normalImageName = [obj objectForKey:@"normalImg"];
+        model.titleLabel.font = [UIFont systemFontOfSize:14];
         if (idx == 1) {
             model.bulgeStyle = AxcAE_TabBarConfigBulgeStyleCircular;
             model.itemSize = CGSizeMake(80, 80);
             model.bulgeHeight = 30;
+            model.isRepeatClick = YES;
             model.interactionEffectStyle = AxcAE_TabBarInteractionEffectStyleAlpha;
         }else{
             model.interactionEffectStyle = AxcAE_TabBarInteractionEffectStyleSpring;
@@ -59,9 +64,12 @@
 
 - (void)axcAE_TabBar:(AxcAE_TabBar *)tabbar selectIndex:(NSInteger)index{
     if (index == 1) {
+        AxcAE_TabBarItem *item = tabbar.tabBarItems[lastIdx];
+        item.isSelect = YES;
         return;
     }
     [self setSelectedIndex:index];
+    lastIdx = index;
 }
 
 - (void)viewDidLayoutSubviews{

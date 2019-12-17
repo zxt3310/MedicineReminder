@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MedicineReminder/ Controller/MainTabViewController/ATMainTabViewController.m"
-            timestampString = "598294243.685092"
+            timestampString = "598295915.987529"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
             landmarkName = "-hitTest:withEvent:"
             landmarkType = "7">
          </BreakpointContent>
@@ -22,15 +22,31 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MedicineReminder/ Controller/MainTabViewController/ATMainTabViewController.m"
-            timestampString = "598294285.849586"
+            timestampString = "598295915.987977"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "-axcAE_TabBar:selectIndex:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MedicineReminder/ Controller/MainTabViewController/ATMainTabViewController.m"
+            timestampString = "598295915.988282"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
             landmarkName = "-axcAE_TabBar:selectIndex:"
             landmarkType = "7">
          </BreakpointContent>
