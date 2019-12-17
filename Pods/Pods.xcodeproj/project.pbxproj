@@ -1,0 +1,2152 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00792539A24DBB48617037BA4EDBD5EA /* UISearchBar+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = B767AF8D0F17AA53DE33CAE4270FB376 /* UISearchBar+Flex.m */; };
+		04DA1D1E0EE34DDD14336131AAA1BF41 /* UIButton+Flex.h in Headers */ = {isa = PBXBuildFile; fileRef = 744613031A746112B229C45B61319B6E /* UIButton+Flex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05BEBA48473C9E30CB9122180211B25A /* YGConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 711DDF71F9BCE7933890F77EE3945726 /* YGConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		08A40729B93B0EBB5F194B30CABD95D9 /* BEMAnimationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 49FD8B10420B3F35CE2355BD5B9F0A26 /* BEMAnimationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08E93755DC21F4FB59FA038E83523D3B /* BEMCheckBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E13BEF8036C42CFA3ED426F0D61A7B4C /* BEMCheckBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A494FEB8BECADC3B7C90871DE1D8C32 /* UIImageView+Flex.h in Headers */ = {isa = PBXBuildFile; fileRef = 243566BD19461BEC9B4811D73DA6D2C9 /* UIImageView+Flex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A4B0DFAD20DCFBEAD21AD6100DF9909 /* UIDatePicker+Flex.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D977A21CD0279E21A3AFC528AC3874 /* UIDatePicker+Flex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AAACD8611C88D7DC3E221C47149D104 /* UISegmentedControl+Flex.h in Headers */ = {isa = PBXBuildFile; fileRef = D915B306067B30960DCFE2E50BFEBA16 /* UISegmentedControl+Flex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FAEA0D9CB83D3A3B714C49C34857EEF /* YGMarker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33EC5208A046B9FF5D22D78AFA9842F2 /* YGMarker.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC -fno-objc-arc"; }; };
+		0FE7C49C0280E1A5668F6F967F036170 /* YGNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EC81597E49F3B9402B5B6E5E200FB6 /* YGNode.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC -fno-objc-arc"; }; };
+		13CA03224553CF342945E1CBB6FAD7F1 /* YGLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EA734C7610849B9209A8B1ECD15B5FE /* YGLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1425DBA69282562A87AEA3A61E51A372 /* FlexCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD5635DD2890D8F8DFF25F164A1C40 /* FlexCollectionView.m */; };
+		167E158DA615DFD323EF50BC23B5C510 /* YGStyle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840A66BE563E307ABE32A88DC41386C6 /* YGStyle.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC -fno-objc-arc"; }; };
+		19301356A5D1D22FAA04F07C2DD37197 /* Pods-MedicineReminderTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB73A94694A386051BE526E90BD2839 /* Pods-MedicineReminderTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CD48A21FB9073D0703F73470EA75BC8 /* FlexTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D6AA4BF3B4D75CBDA60D86CD8D6AAA /* FlexTextView.m */; };
+		1F697857948B3D92ADCBEA6BD1C55FB9 /* FlexCustomBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = EE17B923516D6EEF0DC3D6FA7FDFAF55 /* FlexCustomBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2159ABAAFA8182275B604560582B8065 /* UITextField+Flex.h in Headers */ = {isa = PBXBuildFile; fileRef = AB690E0CF585121EAEFCA60D284FE674 /* UITextField+Flex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21F74251B6B4AB4C7579C958E2599FB7 /* FlexFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E689E742274D3C0F896D3F1F0A8383 /* FlexFrameView.m */; };
+		22006E092C9643DFC7A46CEB075CF026 /* FlexRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D47B24F5E2B88B74A2AB22D7C5A7E9 /* FlexRootView.m */; };
+		22697868BDFB90303D268BC6583B5A7E /* FlexSetPreviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE02312FEEB157AECD4385F2AE4D434 /* FlexSetPreviewVC.m */; };
+		2501C61C4A4A5AAC062B729E9674CC7D /* BEMCheckBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07071816034B423DE025B72E0900D375 /* BEMCheckBox-dummy.m */; };
+		279D49EB8ADAAD55AF48A0F3D5869DE7 /* FlexParentView.h in Headers */ = {isa = PBXBuildFile; fileRef = E01682E2D0EE8220ECF01FF26FC4164C /* FlexParentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27DE1226A2B25FD2558C4B89E89AF4A7 /* UIPageControl+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4755E106E1D81C5061EAB84F5959F16A /* UIPageControl+Flex.m */; };
+		287D43638988810BCA3E550D23418D9B /* FlexContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F26B6CC073B1F9EACAA6DB3D7C29A7 /* FlexContainerView.m */; };
+		28DF5FA621C781E0F78A8BD8FA017858 /* FlexLayoutViewerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED352B17D55C125601E5602CB8DB47D /* FlexLayoutViewerVC.m */; };
+		295AEDD32AEC52A9920B5E42BFF64730 /* GDataXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 6488939E33E24DFA6F0704764FCEE9A8 /* GDataXMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29C26703D640966B1299AC07FFBD48BA /* UIToolbar+Flex.h in Headers */ = {isa = PBXBuildFile; fileRef = AE4217E545184B10E4AA920920C74C08 /* UIToolbar+Flex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A4866CED200E0B82C0A28DF49D2AF51 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 466014EADE6A4494FE312189B74D7755 /* Base.lproj */; };
+		2D24D6FFE3EBBF16F59CF912D1F09082 /* YGEnums.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 48CEEEF1D0429603F69E02AE75E76EBF /* YGEnums.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC -fno-objc-arc"; }; };
+		2D9322DC6AA5635C936D71BD4D721F84 /* FlexScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC71EE4842EC96241030274F2CD8BE05 /* FlexScrollView.m */; };
+		2F6A0F9CFA4F186ABD3112A58F8E79CD /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 59967C96BD303EAFF9FF746768613DF8 /* BEMPathManager.m */; };
+		305C96EFE7AD380E108F035CC6B38E5F /* YGNodePrint.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F92EB953B74B9C568D14A5AA769BB48 /* YGNodePrint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		314CBE1EA86E5FFD3A2A5F21C75DF12F /* YGNodePrint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D39BAA2DE31EC2D34C630E14A17D79FE /* YGNodePrint.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC -fno-objc-arc"; }; };
+		321EDA8198F57CACC64FD20E80E998B4 /* FlexLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D66FDFD86CDB1FD5F2F8D5A378B3AA7 /* FlexLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3299AC8AEB74E89B562834EC74532EA1 /* FlexTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4F03024FBED0AB92F55E3834EEC716 /* FlexTouchView.m */; };
+		35C84B0D769FBFF104FCC4A37C358FC0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930D90136194D3C6E4A71922C603017A /* Foundation.framework */; };
+		36B93463FB8AE7A3122962C934B1ACAE /* FlexBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D40541905E63C06A6D2887EAFCA264 /* FlexBaseVC.m */; };
+		375903F04CC2EBC7F17FF551E39BAEC2 /* FlexUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8832FD3DB2965417705AC576B1E27E7D /* FlexUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AD4D9FFF7E912585E52A104CFF93412 /* UIStepper+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = A3859A4E3333CB98D79B68D57042ABEB /* UIStepper+Flex.m */; };
+		3E51732B0D4F7B85F6AC3D96AC9121B6 /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 878E555D70ACD6BEC665CD98476A4FFA /* BEMCheckBoxGroup.m */; };
+		3F989DA50BF70D83D58D7BB7EABB9C7C /* FlexTouchMaskView.h in Headers */ = {isa = PBXBuildFile; fileRef = FC2DDB4D019FC5F95008F1F4CA0EE8DD /* FlexTouchMaskView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FB984FC4BBAB738DC8507FFF6A2D3F1 /* UILabel+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC533F734C818611241E328EA5B032 /* UILabel+Flex.m */; };
+		3FBAA2C9EA2184A4D30B534A0FA51EA6 /* UIActivityIndicatorView+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E041F0BBC89923A43F6704A3E04194 /* UIActivityIndicatorView+Flex.m */; };
+		4215BBA5A67213E0F5E23A20B958C2CC /* FlexStyleMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 4357B7799F9663E74D10A43D21A039EA /* FlexStyleMgr.m */; };
+		427705A2B1FBE9BB776250E6A7C734F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930D90136194D3C6E4A71922C603017A /* Foundation.framework */; };
+		46930B74DDC19802C656A0D9A6209ABB /* YGStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 521B776BBDC310006563A1CE13849F43 /* YGStyle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		49053E9F620EDE37736F7C5260489CFA /* FlexLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 99F1B82D0B16AC0906FC28E55906E49C /* FlexLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49EC46D3FF1C5B41E75520AC76EDF746 /* FlexStyleMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = 34EF8FFF76A54E13D79C104D92F7BEFE /* FlexStyleMgr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AF40E351FB345B09C2B0ADBCD9DC65F /* UIScrollView+Flex.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A00F6111B2C322865D9C904B4289274 /* UIScrollView+Flex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B4C79ABBC5AC44D11726AC3EA0BB172 /* CompactValue.h in Headers */ = {isa = PBXBuildFile; fileRef = E5E5F3E308ABE75808587D487002B551 /* CompactValue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4C1F6439CACB55289F4A91221A39E077 /* FlexLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E24DC8AE4578BF7B459F05DD8F9E44C /* FlexLib-dummy.m */; };
+		4D04F12D479644799AB9C63DACD0B7F8 /* UISwitch+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = FECBD6EC53B05236576ADFC238D52635 /* UISwitch+Flex.m */; };
+		51FF98D3D699E22571648BB3DCC11956 /* UIView+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A39FF9BF3363F9092C99586CC0DB9B /* UIView+Flex.m */; };
+		536D824F52690127867497EDD3CAF162 /* FlexHttpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8401F6409DC2F1AE5EC38B29714963E5 /* FlexHttpVC.m */; };
+		54667F7E743A96C1A58355EA90858B35 /* FlexBaseTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A5FF9DE3EEF3045837045DA09651892F /* FlexBaseTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59611A5E5ABED710D363C6DE9FAB05B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930D90136194D3C6E4A71922C603017A /* Foundation.framework */; };
+		5AB9566B8E7067D38BF7DCFC05660F66 /* UISlider+Flex.h in Headers */ = {isa = PBXBuildFile; fileRef = 85A3FB739CFC50CDC36927852D0F3861 /* UISlider+Flex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AB96BE9AB35B4A8AB807D624A417AF4 /* FlexBaseTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6099640118214830DE930EC187EBD549 /* FlexBaseTableCell.m */; };
+		5BFEFDBB19B68140767F873C38E021B8 /* FlexUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F925F1BA738048F0B3FD9439DE2A662 /* FlexUtils.m */; };
+		5CA506CBF82C2EFDAF5F7DBC144A4EA5 /* UITabBar+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 288A483FB1A9C8619EE12DF1BC781206 /* UITabBar+Flex.m */; };
+		5D424CB4C4B5F1627C77045E457A63E1 /* log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BC6B53DA59C7C012B629959F2D58616E /* log.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC -fno-objc-arc"; }; };
+		605EFF3E798065B9E2BACC04C32C2363 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0752A2DF1298D9F5C6D9FD04DA1417B8 /* UIKit.framework */; };
+		610C1CCE29627EA1FD7E3AED39AE9FFD /* UILabel+Flex.h in Headers */ = {isa = PBXBuildFile; fileRef = 2044EF953BB7CA5D5798BE0DED75F61A /* UILabel+Flex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6125084A18FCD81FDEB8665CDA967192 /* UITextField+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = C161111E92143F8E73A5EBD1592CF302 /* UITextField+Flex.m */; };
+		62023930EB7ECC1BE98B9DFB3C729D0E /* UIActivityIndicatorView+Flex.h in Headers */ = {isa = PBXBuildFile; fileRef = 259889FEC9F336B15D1C7BE1BB82D13D /* UIActivityIndicatorView+Flex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63868CB7A014DD11CA7D7350B877D77A /* FlexModalView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEFB862C13B51C3C48A9D8F3DBCC844 /* FlexModalView.m */; };
+		65BB4DA7F89FFAB3C4F09821BE1580D8 /* YGMarker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C97FDC50279FE62C2E5A7F39492C3C9 /* YGMarker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		67918757DC8C857E5F28DA4D13087528 /* FlexTouchView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7068FEECD5A27EA15ADBB9B0539A4EE7 /* FlexTouchView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69CA6EDCB6EB345552768BDBE4B152BA /* Pods-MedicineReminder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE5AB6F7FC2ABD34183233BF022723F /* Pods-MedicineReminder-dummy.m */; };
+		6A95CEE3D0E19D294BD67B36D9AF4B54 /* log.h in Headers */ = {isa = PBXBuildFile; fileRef = 63341D16571E05E644FB2F6B4BEDA765 /* log.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C71D16B53E416A226A0A7029BE740FB /* YGLayout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 703BC410D2E7C4C28BC6835C21217226 /* YGLayout.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC -fno-objc-arc"; }; };
+		6CD3CEB39F8C5BD6ADB7057EE9C31110 /* UISwitch+Flex.h in Headers */ = {isa = PBXBuildFile; fileRef = 1188E0AE218C9C75D4A477ED26821129 /* UISwitch+Flex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F2E244217B288DB4134662FFBA4C87D /* UIProgressView+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F227FEB072CFA91DBF2BCA16B54909B /* UIProgressView+Flex.m */; };
+		6FE63DE3411385742C332A05AB0DF85B /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C78257A00C04B8AAD1174CA73B98920 /* BEMAnimationManager.m */; };
+		700CE07676645078B3570DEADBE4865D /* FlexFrameView.h in Headers */ = {isa = PBXBuildFile; fileRef = 44BC3795577A6F9ED8B2A145CC42CAA3 /* FlexFrameView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		708CA0846C915339EFD95C59DBD3713D /* DZNEmptyDataSet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1F4C90B983575E6DBB020127EB5CE9C /* DZNEmptyDataSet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71464B6FACEFD5592C87461F2D7A439D /* FlexBaseVC.h in Headers */ = {isa = PBXBuildFile; fileRef = D5CF81C83D2C657D33A96C5EDCA9152C /* FlexBaseVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7261E6EC90E61BEA8E71F7BBF2552A4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930D90136194D3C6E4A71922C603017A /* Foundation.framework */; };
+		73C202E7757015ECF6B00ED7E989D6FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930D90136194D3C6E4A71922C603017A /* Foundation.framework */; };
+		74B8460298B3BDA1B245355D092F9D02 /* UIScrollView+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5434F2F4F73A2FCFD3B64D82F6A88695 /* UIScrollView+Flex.m */; };
+		7582F63CA4B6518A03B4C7B2972E98BB /* UITabBar+Flex.h in Headers */ = {isa = PBXBuildFile; fileRef = 104340C31D73616DFB616572A37061ED /* UITabBar+Flex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790C966C1CD428302E0A29BF367DAA8B /* UIStepper+Flex.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B467BD9A626560A4D5338E1A0FA7A24 /* UIStepper+Flex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A3098D26771FAE45C0E218CF47236DF /* Yoga-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD9B73489EE2AA60DCF1C94C0641482 /* Yoga-dummy.m */; };
+		7C6262F8346C5534CB51117031771CCD /* UIProgressView+Flex.h in Headers */ = {isa = PBXBuildFile; fileRef = 51AF25269FA6C9B044A35A36803563F5 /* UIProgressView+Flex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D01A6D1C4184603D93B82D01DF4572B /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F25D9095B8FF37443AB38BB368301174 /* UIScrollView+EmptyDataSet.m */; };
+		80B912617F344E6CEECEC5249D8045ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930D90136194D3C6E4A71922C603017A /* Foundation.framework */; };
+		8302E82DEC68E090F8219E577E620FA6 /* FlexTouchMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 396FCED5C16AD3374933042D84C2EF8C /* FlexTouchMaskView.m */; };
+		844A4C2DAFAF478650100F46D07C9EDC /* FlexParentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3464581F69AFB934A05CBAFFD6DADB72 /* FlexParentView.m */; };
+		851109EA41F066547FC8D0B32915E576 /* YGConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6F5255C7AC4B1EE46C6D21C1FA02CF7 /* YGConfig.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC -fno-objc-arc"; }; };
+		89EE830544AABBC2D6EBDB8213254E29 /* UIPickerView+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D5981230938670689C9D035D6D3A61 /* UIPickerView+Flex.m */; };
+		8B5CD6E8FA9B244572F70E4156C29603 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930D90136194D3C6E4A71922C603017A /* Foundation.framework */; };
+		8D3B3C4EB25059CF284764E02E4254CB /* YGLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA71F778D319393BE0D39BE0ABDABA3 /* YGLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		904DD77BA0E759E4511698C8B1FFA138 /* FlexLayoutViewerVC.h in Headers */ = {isa = PBXBuildFile; fileRef = C646906A4558E640B45EC2688A6DC8F9 /* FlexLayoutViewerVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		947375827B5FD33CE7E9CB424BFC33D8 /* Pods-MedicineReminderUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 951624CF7C23F423F5F86CE924B5F6AE /* Pods-MedicineReminderUITests-dummy.m */; };
+		967EB60997995A25F77837F35A55475F /* FlexNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 360D7D0CADD97F11BDC43B024A0E25F2 /* FlexNode.m */; };
+		96844D33325E22272A0225DAA5AC0B5F /* UIControl+Flex.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F4133EB198BFB3284B56C8491368405 /* UIControl+Flex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		986135EFE712DFA6ACA8CB151AC17DE9 /* FlexCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EF6AB9DBF8B2CCCC7872E987AC78F3 /* FlexCollectionCell.m */; };
+		9B9152398A201655EC30596A56BD42B0 /* FlexScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A5F2CF450E00BB5294FD1A94B9B132E /* FlexScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D1BBCCC0EF856147CD8189522C41692 /* FlexCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 14581DE7DB09DBE002F39FCF3D583438 /* FlexCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E74C43211AB7EAAE47F59F20916FB43 /* BEMCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 75D5D8E0AB0A84DD15550A5E5502039D /* BEMCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F2A58F1ED001D07B7DAA94991C3F834 /* YGMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8732C284259FD5C775D8EB65861163D2 /* YGMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F67E43E9E9E6EE254B60633BD1CE5C6 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6F933E48274508553C8457F0E5C81D1F /* zh-Hans.lproj */; };
+		A0A17C059383B37FCB5DD9045563AD01 /* Yoga-internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B005A566C83B1AD72B6E96A612775E2 /* Yoga-internal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A181910A696857EFB297CE7592A83D2F /* FlexSetPreviewVC.xml in Resources */ = {isa = PBXBuildFile; fileRef = B49841B67345CFA67AB51FD2BC5FDD3A /* FlexSetPreviewVC.xml */; };
+		A673B44739B3901F9EFBEA78F5709CD0 /* Yoga-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EACA2B44A2E3F18E003CD7B7D83D45B /* Yoga-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6AB200016FC8BE2D0D6BE5239A0EA8E /* Pods-MedicineReminder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C5FA1631568D9CE439967EE00795B1D /* Pods-MedicineReminder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9DCDFF09E92561695C0B59BB8690EC7 /* UIControl+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5D5DA6082DC3AD47684FF8068323E4 /* UIControl+Flex.m */; };
+		AB0207B8FA78326D5467A46A2C024A04 /* UIDatePicker+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EAC3BDE7CB948A019B4BA82AB296F1 /* UIDatePicker+Flex.m */; };
+		ADF6CC00EBADECB024FB65ACE3F0AAF6 /* UIPickerView+Flex.h in Headers */ = {isa = PBXBuildFile; fileRef = B39C7900F1B6614E9B940DEE106C86E0 /* UIPickerView+Flex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE99270477E18F6917C59DA6F6CFBDE9 /* FlexXmlBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C4639D363E9169368F106A086121878 /* FlexXmlBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFDAAEB0FD5EF38E08768E7B45D1C544 /* FlexTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE7FAF7B1C5A0BC2ECD8B2B54ACCCD3 /* FlexTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0F90171CFAF4A1BFEEA27182FCA2F78 /* FlexHttpVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 404B4BF197E068E1663E070A6B15D78B /* FlexHttpVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B577D268636C97A8D90F5035887B0F2A /* YGEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 02280ACC6D9272B09FF458D6DE30A062 /* YGEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B586487FDB6F9FF5FFC10D28216DEC52 /* YGLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CC0C7FE5321725D152A7D5CA39BF2D /* YGLayout.m */; };
+		B93992B3C0FA1E10608E640DBA682C61 /* FlexLayoutViewerVC.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3182EE016F6DF24B8376030ADEF8AB7D /* FlexLayoutViewerVC.xml */; };
+		BCF67AF588CAFF81EF39EC42CE143CB8 /* UIView+Yoga.m in Sources */ = {isa = PBXBuildFile; fileRef = 850F4A0E1824499392F11FCB1D9B7BEE /* UIView+Yoga.m */; };
+		BF8E39ED79BB8D7855EE6591DAE0AAFF /* YGNode.h in Headers */ = {isa = PBXBuildFile; fileRef = FCCEDA10B2415B5D521C1E98511C7EBB /* YGNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C39CBBF542F274977825E5920C77DB00 /* UISlider+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D47D0F7FCDF06DCDA736BF2AFB041A /* UISlider+Flex.m */; };
+		C701914FE5C1F34EEC7CBFAC026DB81D /* Yoga.h in Headers */ = {isa = PBXBuildFile; fileRef = 19225472A0C7292E0D81417E89088419 /* Yoga.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8653FD618AB0C2D169E9E2BD79BE83C /* FlexXmlBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B722EA7EA047F743CD0485DB86D145 /* FlexXmlBaseView.m */; };
+		C86BEA5BC4A16EF8DE094AC6E5BF535E /* FlexNode.h in Headers */ = {isa = PBXBuildFile; fileRef = E3A88AEBC7FBB73B85207B711B75E5A3 /* FlexNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8DB42043556C407C3527107B32DFD2E /* UIView+Yoga.h in Headers */ = {isa = PBXBuildFile; fileRef = E8652B606B9E88B5353D1EFBE67B69B2 /* UIView+Yoga.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9A1CB99D59A2A120825F1DEC5EBD433 /* FlexCustomBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9A2029FE9107ED081F5AB8654E6036 /* FlexCustomBaseView.m */; };
+		CC9A1CC08A13618A7607044E44A17F68 /* yoga.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB62BB488A0F7921D5EE3A49209AB794 /* yoga.framework */; };
+		CE48DB1D6779DB90818674712B52275F /* BEMCheckBoxGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5162CFD00B54E6AA68FF8A25AC4760 /* BEMCheckBoxGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE8890477D5C097477945ADF4E5D2969 /* Yoga.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8DBDE7F7DB932BF2E61CA2DDC7C38E4A /* Yoga.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC -fno-objc-arc"; }; };
+		CFA082CF7428AE3ECAF987185EE428BC /* FlexCollectionCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECFB3087EEABB1EAFB337C0B50A53EE /* FlexCollectionCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D04F532730184FD67CE781E056F49943 /* FlexModalView.h in Headers */ = {isa = PBXBuildFile; fileRef = 01D971EB75EDC33CA282BFA88F86283E /* FlexModalView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D079537D10C21755341FB5DCF87F60FB /* UIToolbar+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 978BC0786E4708EDC91496589654A999 /* UIToolbar+Flex.m */; };
+		D314FA0B9EAE0E09EE9F718E976583AE /* UIScrollView+EmptyDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 3710C90E72798845A23CCDBA724891CE /* UIScrollView+EmptyDataSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8B03962659A91A888B46E973D25A30E /* instrumentation.h in Headers */ = {isa = PBXBuildFile; fileRef = F2FC63D2830C17EFBA9D6A407A6AA609 /* instrumentation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DA63B7DD363111FDBA4CDD9CADCF0C02 /* FlexRootView.h in Headers */ = {isa = PBXBuildFile; fileRef = E1088A29EB2A4057CBC5A99F5493E97E /* FlexRootView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC21CAC61B61465CB6CF2AE64D565255 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 24486DBC529A515C0D0D1734B4F2ED1E /* Utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD56F6851D274E51FF2B84F842FCBEBD /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1D8541E7521510651B9257796E86081 /* Utils.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC -fno-objc-arc"; }; };
+		E1E5C56690B2BE91849ECF7718756630 /* YGLayout+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = E91A388E726CDDA663A03C8C1F2C2BBC /* YGLayout+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3BA6175AF34525C9D387C8E46724026 /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = A28C077377FA78300634773BF4663502 /* BEMCheckBox.m */; };
+		E58947D7825A814119E93BA3E495EB9C /* UIPageControl+Flex.h in Headers */ = {isa = PBXBuildFile; fileRef = E69E580D7E0241BB916F9BAB1967AF81 /* UIPageControl+Flex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E59451C2B4B0888E9E09739314AAA6B5 /* Pods-MedicineReminderUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CDF157D6A420B25713E477533C89CAE /* Pods-MedicineReminderUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E70184EDC6DD2105C3EB6939A5344B5A /* UISearchBar+Flex.h in Headers */ = {isa = PBXBuildFile; fileRef = F1FF03982B8D39E632FEC060185A81A0 /* UISearchBar+Flex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAF14F7A991B9D2DC91CB8892750A29C /* YGValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 471AF995AAA8010C4C38651814D45FE0 /* YGValue.cpp */; settings = {COMPILER_FLAGS = "-fno-omit-frame-pointer -fexceptions -Wall -Werror -std=c++1y -fPIC -fno-objc-arc"; }; };
+		EB96B792236B673B86A25827B84CFD6D /* FlexHttpVC.xml in Resources */ = {isa = PBXBuildFile; fileRef = 396EC78FCBB37592B1174B9D11A486EA /* FlexHttpVC.xml */; };
+		EF759E3602BEE8C3215972AD315A86BA /* UIButton+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 69AB1BF725A6F785DDD1039F16EE5DF8 /* UIButton+Flex.m */; };
+		EFF87F189C491100079FB3B248D6DB43 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A4C94B37851C50B5981B1B85940474 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F01A564C063D1F1779EB17DF99E16FE8 /* BEMPathManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AF30B97A5D20FAC9D6B72B2E9068E0C /* BEMPathManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F02227B911AC650793125A67FE81532F /* UISegmentedControl+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 559A0149BBA463AA4E0235DD0E587D0D /* UISegmentedControl+Flex.m */; };
+		F029B1762467687634C951C14B383F3D /* UITextView+Flex.h in Headers */ = {isa = PBXBuildFile; fileRef = 92DF125E725BD47E186556814DB700D0 /* UITextView+Flex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4746493D18D1B296A57E9F308E74B9D /* FlexLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 48E0C382BFDA93B8830FB173D40D208F /* FlexLib.bundle */; };
+		F7C65BCA17664531B8E3A6218C6D7A15 /* YGFloatOptional.h in Headers */ = {isa = PBXBuildFile; fileRef = 1965905E8F7B43DDA83C9B316648FE0F /* YGFloatOptional.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F92615A4970A72FEC9A5FCA15F8FA2E8 /* YGValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 599DE504BF525AA02E01C5157673C2A8 /* YGValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F969D3FE1CA975411D8CA319A0A26348 /* UIView+Flex.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B2648F6BB7D440B27C858C1D3D00A0F /* UIView+Flex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9A90CEF296DA6321A14CA1FAD21D275 /* UIImageView+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF8F209D141948E59E98F4A17DDF520 /* UIImageView+Flex.m */; };
+		FAD2A8115AC731011C7353B86AC6DE70 /* UITextView+Flex.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD15FDD0BB79176C2C3DC458F4CC0D8 /* UITextView+Flex.m */; };
+		FD2EB6277D219AC895EFFC0C3BB9CDED /* DZNEmptyDataSet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85AE0488B22572B231A0E201BDF946C3 /* DZNEmptyDataSet-dummy.m */; };
+		FDC5C69BEA144B5259DC7C6AF7D7C2BC /* FlexContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = DA1BCE8E197B49A16F0E77B1C02267DA /* FlexContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE5E5D76DD7A8586CB5A092293D74A8A /* FlexSetPreviewVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FF0980DD08359CEEA5889982E0EA88E /* FlexSetPreviewVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FED8B9A119D31461251143793E9EA145 /* Pods-MedicineReminderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D818493FA69EA4C307816F7FDE3D84DE /* Pods-MedicineReminderTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A4CF1897E17016B2F95C6009ABCF971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B25F90D819B9ADF2AF2D8733A890333;
+			remoteInfo = Yoga;
+		};
+		247803785DAAA2F7BD8E955FC884314E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4315C804D18AF023D6D89A8281BF589;
+			remoteInfo = BEMCheckBox;
+		};
+		3159518C7344A49BA64F43246ECC6BF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86B2BB9E445137DD6687C2755B6B601C;
+			remoteInfo = "FlexLib-FlexLib";
+		};
+		5528860B11E64266D1848CE800C6F74D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 317454BD8F0A72BD312FCA3621EC3E1E;
+			remoteInfo = FlexLib;
+		};
+		56829EB39A5A18C3C9F66AAC4D3F136D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A5529319CC2AEF00850AA699C88A805;
+			remoteInfo = "Pods-MedicineReminder";
+		};
+		D19A32CBD4C5C623B784B1A2B8B2C868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1BCD9702276377FB5B3BDB6EAF709D7;
+			remoteInfo = DZNEmptyDataSet;
+		};
+		F2EA44343B6AB530B4C7CEE4C89A3BD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B25F90D819B9ADF2AF2D8733A890333;
+			remoteInfo = Yoga;
+		};
+		FC217AF012141EF46D6A4CA30F3291F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A5529319CC2AEF00850AA699C88A805;
+			remoteInfo = "Pods-MedicineReminder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D5981230938670689C9D035D6D3A61 /* UIPickerView+Flex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIPickerView+Flex.m"; path = "FlexLib/Classes/ViewExt/UIPickerView+Flex.m"; sourceTree = "<group>"; };
+		01D971EB75EDC33CA282BFA88F86283E /* FlexModalView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexModalView.h; path = FlexLib/Classes/FlexModalView.h; sourceTree = "<group>"; };
+		02280ACC6D9272B09FF458D6DE30A062 /* YGEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGEnums.h; path = yoga/YGEnums.h; sourceTree = "<group>"; };
+		05B08CD2793A6DD3D629CDC847968F67 /* Yoga-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Yoga-prefix.pch"; sourceTree = "<group>"; };
+		06EB620562687F42DAE7602A209F7037 /* Pods-MedicineReminderTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MedicineReminderTests-Info.plist"; sourceTree = "<group>"; };
+		07071816034B423DE025B72E0900D375 /* BEMCheckBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BEMCheckBox-dummy.m"; sourceTree = "<group>"; };
+		0752A2DF1298D9F5C6D9FD04DA1417B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		09D47D0F7FCDF06DCDA736BF2AFB041A /* UISlider+Flex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISlider+Flex.m"; path = "FlexLib/Classes/ViewExt/UISlider+Flex.m"; sourceTree = "<group>"; };
+		104340C31D73616DFB616572A37061ED /* UITabBar+Flex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBar+Flex.h"; path = "FlexLib/Classes/ViewExt/UITabBar+Flex.h"; sourceTree = "<group>"; };
+		11851975FA41DA4F23B95D9B5353B3E2 /* yoga.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = yoga.framework; path = Yoga.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1188E0AE218C9C75D4A477ED26821129 /* UISwitch+Flex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISwitch+Flex.h"; path = "FlexLib/Classes/ViewExt/UISwitch+Flex.h"; sourceTree = "<group>"; };
+		13EF6AB9DBF8B2CCCC7872E987AC78F3 /* FlexCollectionCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlexCollectionCell.m; path = FlexLib/Classes/FlexCollectionCell.m; sourceTree = "<group>"; };
+		14581DE7DB09DBE002F39FCF3D583438 /* FlexCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexCollectionView.h; path = FlexLib/Classes/FlexCollectionView.h; sourceTree = "<group>"; };
+		19225472A0C7292E0D81417E89088419 /* Yoga.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Yoga.h; path = yoga/Yoga.h; sourceTree = "<group>"; };
+		1965905E8F7B43DDA83C9B316648FE0F /* YGFloatOptional.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGFloatOptional.h; path = yoga/YGFloatOptional.h; sourceTree = "<group>"; };
+		1BEC533F734C818611241E328EA5B032 /* UILabel+Flex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Flex.m"; path = "FlexLib/Classes/ViewExt/UILabel+Flex.m"; sourceTree = "<group>"; };
+		1C4639D363E9169368F106A086121878 /* FlexXmlBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexXmlBaseView.h; path = FlexLib/Classes/FlexXmlBaseView.h; sourceTree = "<group>"; };
+		2044EF953BB7CA5D5798BE0DED75F61A /* UILabel+Flex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Flex.h"; path = "FlexLib/Classes/ViewExt/UILabel+Flex.h"; sourceTree = "<group>"; };
+		2190A2A46B5149900EB668EA2A54C379 /* Pods-MedicineReminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedicineReminder.debug.xcconfig"; sourceTree = "<group>"; };
+		22E689E742274D3C0F896D3F1F0A8383 /* FlexFrameView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlexFrameView.m; path = FlexLib/Classes/FlexFrameView.m; sourceTree = "<group>"; };
+		243566BD19461BEC9B4811D73DA6D2C9 /* UIImageView+Flex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+Flex.h"; path = "FlexLib/Classes/ViewExt/UIImageView+Flex.h"; sourceTree = "<group>"; };
+		24486DBC529A515C0D0D1734B4F2ED1E /* Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Utils.h; path = yoga/Utils.h; sourceTree = "<group>"; };
+		259889FEC9F336B15D1C7BE1BB82D13D /* UIActivityIndicatorView+Flex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+Flex.h"; path = "FlexLib/Classes/ViewExt/UIActivityIndicatorView+Flex.h"; sourceTree = "<group>"; };
+		28858696ADE1587F7E994CF329E82DF6 /* FlexLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlexLib-Info.plist"; sourceTree = "<group>"; };
+		288A483FB1A9C8619EE12DF1BC781206 /* UITabBar+Flex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+Flex.m"; path = "FlexLib/Classes/ViewExt/UITabBar+Flex.m"; sourceTree = "<group>"; };
+		2CDF157D6A420B25713E477533C89CAE /* Pods-MedicineReminderUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MedicineReminderUITests-umbrella.h"; sourceTree = "<group>"; };
+		2D15F1A9DAC3255F93186EFC3F884754 /* Pods-MedicineReminder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MedicineReminder.modulemap"; sourceTree = "<group>"; };
+		2D591A3621B7054EC186BE2E5B6C464B /* Pods-MedicineReminderUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MedicineReminderUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2D66FDFD86CDB1FD5F2F8D5A378B3AA7 /* FlexLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexLib-umbrella.h"; sourceTree = "<group>"; };
+		3182EE016F6DF24B8376030ADEF8AB7D /* FlexLayoutViewerVC.xml */ = {isa = PBXFileReference; includeInIndex = 1; name = FlexLayoutViewerVC.xml; path = FlexLib/Assets/FlexLayoutViewerVC.xml; sourceTree = "<group>"; };
+		325AF26D7B843F4803FC50FC5CF4458B /* Pods-MedicineReminder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MedicineReminder-acknowledgements.plist"; sourceTree = "<group>"; };
+		33EC5208A046B9FF5D22D78AFA9842F2 /* YGMarker.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = YGMarker.cpp; path = yoga/YGMarker.cpp; sourceTree = "<group>"; };
+		3464581F69AFB934A05CBAFFD6DADB72 /* FlexParentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlexParentView.m; path = FlexLib/Classes/FlexParentView.m; sourceTree = "<group>"; };
+		34EF8FFF76A54E13D79C104D92F7BEFE /* FlexStyleMgr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexStyleMgr.h; path = FlexLib/Classes/FlexStyleMgr.h; sourceTree = "<group>"; };
+		360D7D0CADD97F11BDC43B024A0E25F2 /* FlexNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlexNode.m; path = FlexLib/Classes/FlexNode.m; sourceTree = "<group>"; };
+		3710C90E72798845A23CCDBA724891CE /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+EmptyDataSet.h"; path = "Source/UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		396EC78FCBB37592B1174B9D11A486EA /* FlexHttpVC.xml */ = {isa = PBXFileReference; includeInIndex = 1; name = FlexHttpVC.xml; path = FlexLib/Assets/FlexHttpVC.xml; sourceTree = "<group>"; };
+		396FCED5C16AD3374933042D84C2EF8C /* FlexTouchMaskView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlexTouchMaskView.m; path = FlexLib/Classes/FlexTouchMaskView.m; sourceTree = "<group>"; };
+		3B005A566C83B1AD72B6E96A612775E2 /* Yoga-internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Yoga-internal.h"; path = "yoga/Yoga-internal.h"; sourceTree = "<group>"; };
+		3C5FA1631568D9CE439967EE00795B1D /* Pods-MedicineReminder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MedicineReminder-umbrella.h"; sourceTree = "<group>"; };
+		3D100724802A0626312C7C7AD696DB87 /* Pods-MedicineReminderUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MedicineReminderUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E24DC8AE4578BF7B459F05DD8F9E44C /* FlexLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlexLib-dummy.m"; sourceTree = "<group>"; };
+		3F227FEB072CFA91DBF2BCA16B54909B /* UIProgressView+Flex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+Flex.m"; path = "FlexLib/Classes/ViewExt/UIProgressView+Flex.m"; sourceTree = "<group>"; };
+		404B4BF197E068E1663E070A6B15D78B /* FlexHttpVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexHttpVC.h; path = FlexLib/Classes/FlexHttpVC.h; sourceTree = "<group>"; };
+		415DCF1B70AA26C16640C410938C726A /* BEMCheckBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMCheckBox-prefix.pch"; sourceTree = "<group>"; };
+		4357B7799F9663E74D10A43D21A039EA /* FlexStyleMgr.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlexStyleMgr.m; path = FlexLib/Classes/FlexStyleMgr.m; sourceTree = "<group>"; };
+		43DA03B9363F019D2DAB24B6A973ED2C /* DZNEmptyDataSet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DZNEmptyDataSet.framework; path = DZNEmptyDataSet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43EC81597E49F3B9402B5B6E5E200FB6 /* YGNode.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = YGNode.cpp; path = yoga/YGNode.cpp; sourceTree = "<group>"; };
+		44A4C94B37851C50B5981B1B85940474 /* GDataXMLNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDataXMLNode.m; path = FlexLib/Classes/GDataXMLNode.m; sourceTree = "<group>"; };
+		44BC3795577A6F9ED8B2A145CC42CAA3 /* FlexFrameView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexFrameView.h; path = FlexLib/Classes/FlexFrameView.h; sourceTree = "<group>"; };
+		45D47B24F5E2B88B74A2AB22D7C5A7E9 /* FlexRootView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlexRootView.m; path = FlexLib/Classes/FlexRootView.m; sourceTree = "<group>"; };
+		466014EADE6A4494FE312189B74D7755 /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = Base.lproj; path = FlexLib/Assets/Base.lproj; sourceTree = "<group>"; };
+		471AF995AAA8010C4C38651814D45FE0 /* YGValue.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = YGValue.cpp; path = yoga/YGValue.cpp; sourceTree = "<group>"; };
+		4755E106E1D81C5061EAB84F5959F16A /* UIPageControl+Flex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIPageControl+Flex.m"; path = "FlexLib/Classes/ViewExt/UIPageControl+Flex.m"; sourceTree = "<group>"; };
+		48CEEEF1D0429603F69E02AE75E76EBF /* YGEnums.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = YGEnums.cpp; path = yoga/YGEnums.cpp; sourceTree = "<group>"; };
+		48E0C382BFDA93B8830FB173D40D208F /* FlexLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FlexLib.bundle; path = "FlexLib-FlexLib.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49E203B2DD2DDB91B297C72DE7FCA2E4 /* Yoga.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Yoga.xcconfig; sourceTree = "<group>"; };
+		49FD8B10420B3F35CE2355BD5B9F0A26 /* BEMAnimationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMAnimationManager.h; path = Classes/BEMAnimationManager.h; sourceTree = "<group>"; };
+		4A00F6111B2C322865D9C904B4289274 /* UIScrollView+Flex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+Flex.h"; path = "FlexLib/Classes/ViewExt/UIScrollView+Flex.h"; sourceTree = "<group>"; };
+		4BE5AB6F7FC2ABD34183233BF022723F /* Pods-MedicineReminder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MedicineReminder-dummy.m"; sourceTree = "<group>"; };
+		4E5162CFD00B54E6AA68FF8A25AC4760 /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMCheckBoxGroup.h; path = Classes/BEMCheckBoxGroup.h; sourceTree = "<group>"; };
+		4ECFB3087EEABB1EAFB337C0B50A53EE /* FlexCollectionCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexCollectionCell.h; path = FlexLib/Classes/FlexCollectionCell.h; sourceTree = "<group>"; };
+		4ED352B17D55C125601E5602CB8DB47D /* FlexLayoutViewerVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlexLayoutViewerVC.m; path = FlexLib/Classes/FlexLayoutViewerVC.m; sourceTree = "<group>"; };
+		4F35264F03AD003AFE73ED2E4D906310 /* Pods_MedicineReminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MedicineReminder.framework; path = "Pods-MedicineReminder.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F4133EB198BFB3284B56C8491368405 /* UIControl+Flex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+Flex.h"; path = "FlexLib/Classes/ViewExt/UIControl+Flex.h"; sourceTree = "<group>"; };
+		4F9A2029FE9107ED081F5AB8654E6036 /* FlexCustomBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlexCustomBaseView.m; path = FlexLib/Classes/FlexCustomBaseView.m; sourceTree = "<group>"; };
+		51AF25269FA6C9B044A35A36803563F5 /* UIProgressView+Flex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+Flex.h"; path = "FlexLib/Classes/ViewExt/UIProgressView+Flex.h"; sourceTree = "<group>"; };
+		521B776BBDC310006563A1CE13849F43 /* YGStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGStyle.h; path = yoga/YGStyle.h; sourceTree = "<group>"; };
+		5434F2F4F73A2FCFD3B64D82F6A88695 /* UIScrollView+Flex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+Flex.m"; path = "FlexLib/Classes/ViewExt/UIScrollView+Flex.m"; sourceTree = "<group>"; };
+		54B6D2EFE4C6529E717C259CFF0678C4 /* FlexLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexLib-prefix.pch"; sourceTree = "<group>"; };
+		54F361B476C8246A07C3D459B1BE7207 /* DZNEmptyDataSet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZNEmptyDataSet-prefix.pch"; sourceTree = "<group>"; };
+		5577155554AF721D9C194EFD07E24CAE /* Pods-MedicineReminder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MedicineReminder-Info.plist"; sourceTree = "<group>"; };
+		559A0149BBA463AA4E0235DD0E587D0D /* UISegmentedControl+Flex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISegmentedControl+Flex.m"; path = "FlexLib/Classes/ViewExt/UISegmentedControl+Flex.m"; sourceTree = "<group>"; };
+		55FA39A2E8AE3778C16E13A848353891 /* BEMCheckBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEMCheckBox.xcconfig; sourceTree = "<group>"; };
+		57D977A21CD0279E21A3AFC528AC3874 /* UIDatePicker+Flex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDatePicker+Flex.h"; path = "FlexLib/Classes/ViewExt/UIDatePicker+Flex.h"; sourceTree = "<group>"; };
+		58D6AA4BF3B4D75CBDA60D86CD8D6AAA /* FlexTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlexTextView.m; path = FlexLib/Classes/FlexTextView.m; sourceTree = "<group>"; };
+		59967C96BD303EAFF9FF746768613DF8 /* BEMPathManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMPathManager.m; path = Classes/BEMPathManager.m; sourceTree = "<group>"; };
+		599DE504BF525AA02E01C5157673C2A8 /* YGValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGValue.h; path = yoga/YGValue.h; sourceTree = "<group>"; };
+		5B467BD9A626560A4D5338E1A0FA7A24 /* UIStepper+Flex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIStepper+Flex.h"; path = "FlexLib/Classes/ViewExt/UIStepper+Flex.h"; sourceTree = "<group>"; };
+		5BC7856FD86A104038DFCADCC0B6B6FF /* ResourceBundle-FlexLib-FlexLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FlexLib-FlexLib-Info.plist"; sourceTree = "<group>"; };
+		5FF0980DD08359CEEA5889982E0EA88E /* FlexSetPreviewVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexSetPreviewVC.h; path = FlexLib/Classes/FlexSetPreviewVC.h; sourceTree = "<group>"; };
+		6003347C32F2554753D1B30D973EEB18 /* Pods-MedicineReminderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedicineReminderTests.release.xcconfig"; sourceTree = "<group>"; };
+		6099640118214830DE930EC187EBD549 /* FlexBaseTableCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlexBaseTableCell.m; path = FlexLib/Classes/FlexBaseTableCell.m; sourceTree = "<group>"; };
+		63341D16571E05E644FB2F6B4BEDA765 /* log.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = log.h; path = yoga/log.h; sourceTree = "<group>"; };
+		6488939E33E24DFA6F0704764FCEE9A8 /* GDataXMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDataXMLNode.h; path = FlexLib/Classes/GDataXMLNode.h; sourceTree = "<group>"; };
+		66CC0C7FE5321725D152A7D5CA39BF2D /* YGLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YGLayout.m; path = FlexLib/Classes/YogaKit/YGLayout.m; sourceTree = "<group>"; };
+		69AB1BF725A6F785DDD1039F16EE5DF8 /* UIButton+Flex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Flex.m"; path = "FlexLib/Classes/ViewExt/UIButton+Flex.m"; sourceTree = "<group>"; };
+		6AB09813D79BC22E01604D0FE055C2F5 /* Pods-MedicineReminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedicineReminder.release.xcconfig"; sourceTree = "<group>"; };
+		6AF30B97A5D20FAC9D6B72B2E9068E0C /* BEMPathManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMPathManager.h; path = Classes/BEMPathManager.h; sourceTree = "<group>"; };
+		6F925F1BA738048F0B3FD9439DE2A662 /* FlexUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlexUtils.m; path = FlexLib/Classes/FlexUtils.m; sourceTree = "<group>"; };
+		6F933E48274508553C8457F0E5C81D1F /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "FlexLib/Assets/zh-Hans.lproj"; sourceTree = "<group>"; };
+		703BC410D2E7C4C28BC6835C21217226 /* YGLayout.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = YGLayout.cpp; path = yoga/YGLayout.cpp; sourceTree = "<group>"; };
+		7068FEECD5A27EA15ADBB9B0539A4EE7 /* FlexTouchView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexTouchView.h; path = FlexLib/Classes/FlexTouchView.h; sourceTree = "<group>"; };
+		711DDF71F9BCE7933890F77EE3945726 /* YGConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGConfig.h; path = yoga/YGConfig.h; sourceTree = "<group>"; };
+		744613031A746112B229C45B61319B6E /* UIButton+Flex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Flex.h"; path = "FlexLib/Classes/ViewExt/UIButton+Flex.h"; sourceTree = "<group>"; };
+		749DD1340E1158D18CF170B9C230D4D3 /* BEMCheckBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BEMCheckBox.modulemap; sourceTree = "<group>"; };
+		74EBDB18D366CE76D08C943404A33ACF /* Pods-MedicineReminderUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MedicineReminderUITests-Info.plist"; sourceTree = "<group>"; };
+		75D5D8E0AB0A84DD15550A5E5502039D /* BEMCheckBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMCheckBox.h; path = Classes/BEMCheckBox.h; sourceTree = "<group>"; };
+		79F26B6CC073B1F9EACAA6DB3D7C29A7 /* FlexContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlexContainerView.m; path = FlexLib/Classes/FlexContainerView.m; sourceTree = "<group>"; };
+		7C78257A00C04B8AAD1174CA73B98920 /* BEMAnimationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMAnimationManager.m; path = Classes/BEMAnimationManager.m; sourceTree = "<group>"; };
+		7FCBFA00A2A1FC6D3AC79954D7535389 /* BEMCheckBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BEMCheckBox.framework; path = BEMCheckBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8089A899E460ECCAF87B92ABC1867ACD /* Pods-MedicineReminderUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MedicineReminderUITests.modulemap"; sourceTree = "<group>"; };
+		82EBD93981AFFACEB5B197B2CDB1D1F8 /* DZNEmptyDataSet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DZNEmptyDataSet.modulemap; sourceTree = "<group>"; };
+		82F8AB9037DF871B603026F7461BB929 /* FlexLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlexLib.xcconfig; sourceTree = "<group>"; };
+		8401F6409DC2F1AE5EC38B29714963E5 /* FlexHttpVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlexHttpVC.m; path = FlexLib/Classes/FlexHttpVC.m; sourceTree = "<group>"; };
+		840A66BE563E307ABE32A88DC41386C6 /* YGStyle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = YGStyle.cpp; path = yoga/YGStyle.cpp; sourceTree = "<group>"; };
+		850F4A0E1824499392F11FCB1D9B7BEE /* UIView+Yoga.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Yoga.m"; path = "FlexLib/Classes/YogaKit/UIView+Yoga.m"; sourceTree = "<group>"; };
+		85A3FB739CFC50CDC36927852D0F3861 /* UISlider+Flex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISlider+Flex.h"; path = "FlexLib/Classes/ViewExt/UISlider+Flex.h"; sourceTree = "<group>"; };
+		85AE0488B22572B231A0E201BDF946C3 /* DZNEmptyDataSet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZNEmptyDataSet-dummy.m"; sourceTree = "<group>"; };
+		8732C284259FD5C775D8EB65861163D2 /* YGMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGMacros.h; path = yoga/YGMacros.h; sourceTree = "<group>"; };
+		878E555D70ACD6BEC665CD98476A4FFA /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBoxGroup.m; path = Classes/BEMCheckBoxGroup.m; sourceTree = "<group>"; };
+		8832FD3DB2965417705AC576B1E27E7D /* FlexUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexUtils.h; path = FlexLib/Classes/FlexUtils.h; sourceTree = "<group>"; };
+		8857F1ACF89596C968300D5C0267C8E9 /* Pods_MedicineReminderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MedicineReminderTests.framework; path = "Pods-MedicineReminderTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A5F2CF450E00BB5294FD1A94B9B132E /* FlexScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexScrollView.h; path = FlexLib/Classes/FlexScrollView.h; sourceTree = "<group>"; };
+		8B2648F6BB7D440B27C858C1D3D00A0F /* UIView+Flex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Flex.h"; path = "FlexLib/Classes/ViewExt/UIView+Flex.h"; sourceTree = "<group>"; };
+		8D4F03024FBED0AB92F55E3834EEC716 /* FlexTouchView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlexTouchView.m; path = FlexLib/Classes/FlexTouchView.m; sourceTree = "<group>"; };
+		8DBDE7F7DB932BF2E61CA2DDC7C38E4A /* Yoga.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = Yoga.cpp; path = yoga/Yoga.cpp; sourceTree = "<group>"; };
+		90B722EA7EA047F743CD0485DB86D145 /* FlexXmlBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlexXmlBaseView.m; path = FlexLib/Classes/FlexXmlBaseView.m; sourceTree = "<group>"; };
+		92DF125E725BD47E186556814DB700D0 /* UITextView+Flex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+Flex.h"; path = "FlexLib/Classes/ViewExt/UITextView+Flex.h"; sourceTree = "<group>"; };
+		930D90136194D3C6E4A71922C603017A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		951624CF7C23F423F5F86CE924B5F6AE /* Pods-MedicineReminderUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MedicineReminderUITests-dummy.m"; sourceTree = "<group>"; };
+		95E159AF984486F51E77997308F32238 /* BEMCheckBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BEMCheckBox-Info.plist"; sourceTree = "<group>"; };
+		96EAC3BDE7CB948A019B4BA82AB296F1 /* UIDatePicker+Flex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDatePicker+Flex.m"; path = "FlexLib/Classes/ViewExt/UIDatePicker+Flex.m"; sourceTree = "<group>"; };
+		978BC0786E4708EDC91496589654A999 /* UIToolbar+Flex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIToolbar+Flex.m"; path = "FlexLib/Classes/ViewExt/UIToolbar+Flex.m"; sourceTree = "<group>"; };
+		99F1B82D0B16AC0906FC28E55906E49C /* FlexLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexLib.h; path = FlexLib/Classes/FlexLib.h; sourceTree = "<group>"; };
+		9A760E69B1ABDFF9CB86BE4CC8442AC6 /* Pods-MedicineReminderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedicineReminderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9ABD5635DD2890D8F8DFF25F164A1C40 /* FlexCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlexCollectionView.m; path = FlexLib/Classes/FlexCollectionView.m; sourceTree = "<group>"; };
+		9AD15FDD0BB79176C2C3DC458F4CC0D8 /* UITextView+Flex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+Flex.m"; path = "FlexLib/Classes/ViewExt/UITextView+Flex.m"; sourceTree = "<group>"; };
+		9AE02312FEEB157AECD4385F2AE4D434 /* FlexSetPreviewVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlexSetPreviewVC.m; path = FlexLib/Classes/FlexSetPreviewVC.m; sourceTree = "<group>"; };
+		9C97FDC50279FE62C2E5A7F39492C3C9 /* YGMarker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGMarker.h; path = yoga/YGMarker.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EA734C7610849B9209A8B1ECD15B5FE /* YGLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGLayout.h; path = FlexLib/Classes/YogaKit/YGLayout.h; sourceTree = "<group>"; };
+		9EACA2B44A2E3F18E003CD7B7D83D45B /* Yoga-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Yoga-umbrella.h"; sourceTree = "<group>"; };
+		9EE12D6C024818CD486DF70C166F7431 /* Pods_MedicineReminderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MedicineReminderUITests.framework; path = "Pods-MedicineReminderUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F92EB953B74B9C568D14A5AA769BB48 /* YGNodePrint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGNodePrint.h; path = yoga/YGNodePrint.h; sourceTree = "<group>"; };
+		9FE7FAF7B1C5A0BC2ECD8B2B54ACCCD3 /* FlexTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexTextView.h; path = FlexLib/Classes/FlexTextView.h; sourceTree = "<group>"; };
+		A1D8541E7521510651B9257796E86081 /* Utils.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = Utils.cpp; path = yoga/Utils.cpp; sourceTree = "<group>"; };
+		A28C077377FA78300634773BF4663502 /* BEMCheckBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMCheckBox.m; path = Classes/BEMCheckBox.m; sourceTree = "<group>"; };
+		A2D40541905E63C06A6D2887EAFCA264 /* FlexBaseVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlexBaseVC.m; path = FlexLib/Classes/FlexBaseVC.m; sourceTree = "<group>"; };
+		A3859A4E3333CB98D79B68D57042ABEB /* UIStepper+Flex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIStepper+Flex.m"; path = "FlexLib/Classes/ViewExt/UIStepper+Flex.m"; sourceTree = "<group>"; };
+		A5FF9DE3EEF3045837045DA09651892F /* FlexBaseTableCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexBaseTableCell.h; path = FlexLib/Classes/FlexBaseTableCell.h; sourceTree = "<group>"; };
+		A6F5255C7AC4B1EE46C6D21C1FA02CF7 /* YGConfig.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = YGConfig.cpp; path = yoga/YGConfig.cpp; sourceTree = "<group>"; };
+		A8B7EEB3CB4C8FB7F0989AB9AAC1B6C7 /* DZNEmptyDataSet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZNEmptyDataSet.xcconfig; sourceTree = "<group>"; };
+		AA381EFE0BB1ACFCF39541E921E138B7 /* Yoga-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Yoga-Info.plist"; sourceTree = "<group>"; };
+		AAB73A94694A386051BE526E90BD2839 /* Pods-MedicineReminderTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MedicineReminderTests-umbrella.h"; sourceTree = "<group>"; };
+		AB690E0CF585121EAEFCA60D284FE674 /* UITextField+Flex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+Flex.h"; path = "FlexLib/Classes/ViewExt/UITextField+Flex.h"; sourceTree = "<group>"; };
+		AE4217E545184B10E4AA920920C74C08 /* UIToolbar+Flex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIToolbar+Flex.h"; path = "FlexLib/Classes/ViewExt/UIToolbar+Flex.h"; sourceTree = "<group>"; };
+		AFD9B73489EE2AA60DCF1C94C0641482 /* Yoga-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Yoga-dummy.m"; sourceTree = "<group>"; };
+		B297C81851A185E4D92E29FD4357EB53 /* Pods-MedicineReminderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedicineReminderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B39C7900F1B6614E9B940DEE106C86E0 /* UIPickerView+Flex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIPickerView+Flex.h"; path = "FlexLib/Classes/ViewExt/UIPickerView+Flex.h"; sourceTree = "<group>"; };
+		B49841B67345CFA67AB51FD2BC5FDD3A /* FlexSetPreviewVC.xml */ = {isa = PBXFileReference; includeInIndex = 1; name = FlexSetPreviewVC.xml; path = FlexLib/Assets/FlexSetPreviewVC.xml; sourceTree = "<group>"; };
+		B767AF8D0F17AA53DE33CAE4270FB376 /* UISearchBar+Flex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISearchBar+Flex.m"; path = "FlexLib/Classes/ViewExt/UISearchBar+Flex.m"; sourceTree = "<group>"; };
+		BC6B53DA59C7C012B629959F2D58616E /* log.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = log.cpp; path = yoga/log.cpp; sourceTree = "<group>"; };
+		BC71EE4842EC96241030274F2CD8BE05 /* FlexScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlexScrollView.m; path = FlexLib/Classes/FlexScrollView.m; sourceTree = "<group>"; };
+		BCCE54205E4F8488D770DDADC062FE1C /* Pods-MedicineReminderTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MedicineReminderTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C161111E92143F8E73A5EBD1592CF302 /* UITextField+Flex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+Flex.m"; path = "FlexLib/Classes/ViewExt/UITextField+Flex.m"; sourceTree = "<group>"; };
+		C1F4C90B983575E6DBB020127EB5CE9C /* DZNEmptyDataSet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZNEmptyDataSet-umbrella.h"; sourceTree = "<group>"; };
+		C646906A4558E640B45EC2688A6DC8F9 /* FlexLayoutViewerVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexLayoutViewerVC.h; path = FlexLib/Classes/FlexLayoutViewerVC.h; sourceTree = "<group>"; };
+		C8743BA8C4C57D911CA3C5C832C99342 /* FlexLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlexLib.framework; path = FlexLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C978FD4D0B93B020108EDDDC8F867392 /* Pods-MedicineReminderTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MedicineReminderTests.modulemap"; sourceTree = "<group>"; };
+		CAA71F778D319393BE0D39BE0ABDABA3 /* YGLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGLayout.h; path = yoga/YGLayout.h; sourceTree = "<group>"; };
+		CBC1732DEFC4BB40134EBB67169A00AA /* FlexLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlexLib.modulemap; sourceTree = "<group>"; };
+		CCEAAEC162DC268508776EF45E26BA3F /* DZNEmptyDataSet-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DZNEmptyDataSet-Info.plist"; sourceTree = "<group>"; };
+		D0E041F0BBC89923A43F6704A3E04194 /* UIActivityIndicatorView+Flex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+Flex.m"; path = "FlexLib/Classes/ViewExt/UIActivityIndicatorView+Flex.m"; sourceTree = "<group>"; };
+		D0EE38FAAED61A96E391B2FBFAC20F2C /* Pods-MedicineReminderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MedicineReminderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2B7D4F2CF83F4F24CA2A85696064B43 /* Pods-MedicineReminder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MedicineReminder-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D39BAA2DE31EC2D34C630E14A17D79FE /* YGNodePrint.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = YGNodePrint.cpp; path = yoga/YGNodePrint.cpp; sourceTree = "<group>"; };
+		D5CF81C83D2C657D33A96C5EDCA9152C /* FlexBaseVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexBaseVC.h; path = FlexLib/Classes/FlexBaseVC.h; sourceTree = "<group>"; };
+		D818493FA69EA4C307816F7FDE3D84DE /* Pods-MedicineReminderTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MedicineReminderTests-dummy.m"; sourceTree = "<group>"; };
+		D915B306067B30960DCFE2E50BFEBA16 /* UISegmentedControl+Flex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISegmentedControl+Flex.h"; path = "FlexLib/Classes/ViewExt/UISegmentedControl+Flex.h"; sourceTree = "<group>"; };
+		DA1BCE8E197B49A16F0E77B1C02267DA /* FlexContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexContainerView.h; path = FlexLib/Classes/FlexContainerView.h; sourceTree = "<group>"; };
+		DB62BB488A0F7921D5EE3A49209AB794 /* yoga.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = yoga.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6EFC6B854731A9EDF5D8BCD1C6087F /* Pods-MedicineReminder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MedicineReminder-frameworks.sh"; sourceTree = "<group>"; };
+		E01682E2D0EE8220ECF01FF26FC4164C /* FlexParentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexParentView.h; path = FlexLib/Classes/FlexParentView.h; sourceTree = "<group>"; };
+		E1088A29EB2A4057CBC5A99F5493E97E /* FlexRootView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexRootView.h; path = FlexLib/Classes/FlexRootView.h; sourceTree = "<group>"; };
+		E13BEF8036C42CFA3ED426F0D61A7B4C /* BEMCheckBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMCheckBox-umbrella.h"; sourceTree = "<group>"; };
+		E3A88AEBC7FBB73B85207B711B75E5A3 /* FlexNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexNode.h; path = FlexLib/Classes/FlexNode.h; sourceTree = "<group>"; };
+		E5E5F3E308ABE75808587D487002B551 /* CompactValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CompactValue.h; path = yoga/CompactValue.h; sourceTree = "<group>"; };
+		E69E580D7E0241BB916F9BAB1967AF81 /* UIPageControl+Flex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIPageControl+Flex.h"; path = "FlexLib/Classes/ViewExt/UIPageControl+Flex.h"; sourceTree = "<group>"; };
+		E8652B606B9E88B5353D1EFBE67B69B2 /* UIView+Yoga.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Yoga.h"; path = "FlexLib/Classes/YogaKit/UIView+Yoga.h"; sourceTree = "<group>"; };
+		E91A388E726CDDA663A03C8C1F2C2BBC /* YGLayout+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YGLayout+Private.h"; path = "FlexLib/Classes/YogaKit/YGLayout+Private.h"; sourceTree = "<group>"; };
+		EB0ECC73EF1239BDF8F5C00C85F45707 /* Yoga.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Yoga.modulemap; sourceTree = "<group>"; };
+		EE17B923516D6EEF0DC3D6FA7FDFAF55 /* FlexCustomBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexCustomBaseView.h; path = FlexLib/Classes/FlexCustomBaseView.h; sourceTree = "<group>"; };
+		F1FF03982B8D39E632FEC060185A81A0 /* UISearchBar+Flex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISearchBar+Flex.h"; path = "FlexLib/Classes/ViewExt/UISearchBar+Flex.h"; sourceTree = "<group>"; };
+		F25D9095B8FF37443AB38BB368301174 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+EmptyDataSet.m"; path = "Source/UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		F2FC63D2830C17EFBA9D6A407A6AA609 /* instrumentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = instrumentation.h; path = yoga/instrumentation.h; sourceTree = "<group>"; };
+		F5A39FF9BF3363F9092C99586CC0DB9B /* UIView+Flex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Flex.m"; path = "FlexLib/Classes/ViewExt/UIView+Flex.m"; sourceTree = "<group>"; };
+		FBF8F209D141948E59E98F4A17DDF520 /* UIImageView+Flex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+Flex.m"; path = "FlexLib/Classes/ViewExt/UIImageView+Flex.m"; sourceTree = "<group>"; };
+		FC2DDB4D019FC5F95008F1F4CA0EE8DD /* FlexTouchMaskView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexTouchMaskView.h; path = FlexLib/Classes/FlexTouchMaskView.h; sourceTree = "<group>"; };
+		FC5D5DA6082DC3AD47684FF8068323E4 /* UIControl+Flex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+Flex.m"; path = "FlexLib/Classes/ViewExt/UIControl+Flex.m"; sourceTree = "<group>"; };
+		FCCEDA10B2415B5D521C1E98511C7EBB /* YGNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGNode.h; path = yoga/YGNode.h; sourceTree = "<group>"; };
+		FE5B5EB5E9CAE354D1702AF6F8099BE6 /* Pods-MedicineReminderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MedicineReminderTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FECBD6EC53B05236576ADFC238D52635 /* UISwitch+Flex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISwitch+Flex.m"; path = "FlexLib/Classes/ViewExt/UISwitch+Flex.m"; sourceTree = "<group>"; };
+		FFEFB862C13B51C3C48A9D8F3DBCC844 /* FlexModalView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlexModalView.m; path = FlexLib/Classes/FlexModalView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BD1E1480CFCF38E96059BFD51F5F69F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C84B0D769FBFF104FCC4A37C358FC0 /* Foundation.framework in Frameworks */,
+				CC9A1CC08A13618A7607044E44A17F68 /* yoga.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A610E8B809548470EA7FC842420C46F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73C202E7757015ECF6B00ED7E989D6FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9E51BC5E6D969E8DD100BA8AB7DFB69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5CD6E8FA9B244572F70E4156C29603 /* Foundation.framework in Frameworks */,
+				605EFF3E798065B9E2BACC04C32C2363 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC442ADBC6A21FD9D1DE47B79928ABD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7261E6EC90E61BEA8E71F7BBF2552A4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF107CEBF2555D84188FDD5147BF0674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427705A2B1FBE9BB776250E6A7C734F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3C67B29B6413DA21E23E522EB2B46FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59611A5E5ABED710D363C6DE9FAB05B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C79C6BA368880363389F8BD15F2B22B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B912617F344E6CEECEC5249D8045ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49A2BB4726FE5C7FED826788C6A1E12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FB8E850E5974F6D0D6CAB0F5D8CB33E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B97E106051D28A3AE5B778B8250AEBB8 /* BEMCheckBox */,
+				4B557C7BBDA497312C04D52290D5D44F /* DZNEmptyDataSet */,
+				533656E4229FDEB2CCD8A626CC7C11E5 /* FlexLib */,
+				5D36710D4D2DB5DC264DF020A1449C4B /* Yoga */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		36B3506FCA9133979A87D7F0E9FAD9E2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				981C960E9017CACF63784D875DEDC497 /* Pods-MedicineReminder */,
+				38FD5040EF447DF6C4D0ADDD738F2744 /* Pods-MedicineReminderTests */,
+				EEBDEA29E918F26714E3B5A7F4EA8DA5 /* Pods-MedicineReminderUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		38FD5040EF447DF6C4D0ADDD738F2744 /* Pods-MedicineReminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				C978FD4D0B93B020108EDDDC8F867392 /* Pods-MedicineReminderTests.modulemap */,
+				BCCE54205E4F8488D770DDADC062FE1C /* Pods-MedicineReminderTests-acknowledgements.markdown */,
+				FE5B5EB5E9CAE354D1702AF6F8099BE6 /* Pods-MedicineReminderTests-acknowledgements.plist */,
+				D818493FA69EA4C307816F7FDE3D84DE /* Pods-MedicineReminderTests-dummy.m */,
+				06EB620562687F42DAE7602A209F7037 /* Pods-MedicineReminderTests-Info.plist */,
+				AAB73A94694A386051BE526E90BD2839 /* Pods-MedicineReminderTests-umbrella.h */,
+				D0EE38FAAED61A96E391B2FBFAC20F2C /* Pods-MedicineReminderTests.debug.xcconfig */,
+				6003347C32F2554753D1B30D973EEB18 /* Pods-MedicineReminderTests.release.xcconfig */,
+			);
+			name = "Pods-MedicineReminderTests";
+			path = "Target Support Files/Pods-MedicineReminderTests";
+			sourceTree = "<group>";
+		};
+		39AD74DDFEAEC062B77CEFF037E0EEDB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				749DD1340E1158D18CF170B9C230D4D3 /* BEMCheckBox.modulemap */,
+				55FA39A2E8AE3778C16E13A848353891 /* BEMCheckBox.xcconfig */,
+				07071816034B423DE025B72E0900D375 /* BEMCheckBox-dummy.m */,
+				95E159AF984486F51E77997308F32238 /* BEMCheckBox-Info.plist */,
+				415DCF1B70AA26C16640C410938C726A /* BEMCheckBox-prefix.pch */,
+				E13BEF8036C42CFA3ED426F0D61A7B4C /* BEMCheckBox-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BEMCheckBox";
+			sourceTree = "<group>";
+		};
+		4B557C7BBDA497312C04D52290D5D44F /* DZNEmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				3710C90E72798845A23CCDBA724891CE /* UIScrollView+EmptyDataSet.h */,
+				F25D9095B8FF37443AB38BB368301174 /* UIScrollView+EmptyDataSet.m */,
+				B6154D8B4BCEBECA08A1A40ECF510EEA /* Support Files */,
+			);
+			name = DZNEmptyDataSet;
+			path = DZNEmptyDataSet;
+			sourceTree = "<group>";
+		};
+		533656E4229FDEB2CCD8A626CC7C11E5 /* FlexLib */ = {
+			isa = PBXGroup;
+			children = (
+				A5FF9DE3EEF3045837045DA09651892F /* FlexBaseTableCell.h */,
+				6099640118214830DE930EC187EBD549 /* FlexBaseTableCell.m */,
+				D5CF81C83D2C657D33A96C5EDCA9152C /* FlexBaseVC.h */,
+				A2D40541905E63C06A6D2887EAFCA264 /* FlexBaseVC.m */,
+				4ECFB3087EEABB1EAFB337C0B50A53EE /* FlexCollectionCell.h */,
+				13EF6AB9DBF8B2CCCC7872E987AC78F3 /* FlexCollectionCell.m */,
+				14581DE7DB09DBE002F39FCF3D583438 /* FlexCollectionView.h */,
+				9ABD5635DD2890D8F8DFF25F164A1C40 /* FlexCollectionView.m */,
+				DA1BCE8E197B49A16F0E77B1C02267DA /* FlexContainerView.h */,
+				79F26B6CC073B1F9EACAA6DB3D7C29A7 /* FlexContainerView.m */,
+				EE17B923516D6EEF0DC3D6FA7FDFAF55 /* FlexCustomBaseView.h */,
+				4F9A2029FE9107ED081F5AB8654E6036 /* FlexCustomBaseView.m */,
+				44BC3795577A6F9ED8B2A145CC42CAA3 /* FlexFrameView.h */,
+				22E689E742274D3C0F896D3F1F0A8383 /* FlexFrameView.m */,
+				404B4BF197E068E1663E070A6B15D78B /* FlexHttpVC.h */,
+				8401F6409DC2F1AE5EC38B29714963E5 /* FlexHttpVC.m */,
+				C646906A4558E640B45EC2688A6DC8F9 /* FlexLayoutViewerVC.h */,
+				4ED352B17D55C125601E5602CB8DB47D /* FlexLayoutViewerVC.m */,
+				99F1B82D0B16AC0906FC28E55906E49C /* FlexLib.h */,
+				01D971EB75EDC33CA282BFA88F86283E /* FlexModalView.h */,
+				FFEFB862C13B51C3C48A9D8F3DBCC844 /* FlexModalView.m */,
+				E3A88AEBC7FBB73B85207B711B75E5A3 /* FlexNode.h */,
+				360D7D0CADD97F11BDC43B024A0E25F2 /* FlexNode.m */,
+				E01682E2D0EE8220ECF01FF26FC4164C /* FlexParentView.h */,
+				3464581F69AFB934A05CBAFFD6DADB72 /* FlexParentView.m */,
+				E1088A29EB2A4057CBC5A99F5493E97E /* FlexRootView.h */,
+				45D47B24F5E2B88B74A2AB22D7C5A7E9 /* FlexRootView.m */,
+				8A5F2CF450E00BB5294FD1A94B9B132E /* FlexScrollView.h */,
+				BC71EE4842EC96241030274F2CD8BE05 /* FlexScrollView.m */,
+				5FF0980DD08359CEEA5889982E0EA88E /* FlexSetPreviewVC.h */,
+				9AE02312FEEB157AECD4385F2AE4D434 /* FlexSetPreviewVC.m */,
+				34EF8FFF76A54E13D79C104D92F7BEFE /* FlexStyleMgr.h */,
+				4357B7799F9663E74D10A43D21A039EA /* FlexStyleMgr.m */,
+				9FE7FAF7B1C5A0BC2ECD8B2B54ACCCD3 /* FlexTextView.h */,
+				58D6AA4BF3B4D75CBDA60D86CD8D6AAA /* FlexTextView.m */,
+				FC2DDB4D019FC5F95008F1F4CA0EE8DD /* FlexTouchMaskView.h */,
+				396FCED5C16AD3374933042D84C2EF8C /* FlexTouchMaskView.m */,
+				7068FEECD5A27EA15ADBB9B0539A4EE7 /* FlexTouchView.h */,
+				8D4F03024FBED0AB92F55E3834EEC716 /* FlexTouchView.m */,
+				8832FD3DB2965417705AC576B1E27E7D /* FlexUtils.h */,
+				6F925F1BA738048F0B3FD9439DE2A662 /* FlexUtils.m */,
+				1C4639D363E9169368F106A086121878 /* FlexXmlBaseView.h */,
+				90B722EA7EA047F743CD0485DB86D145 /* FlexXmlBaseView.m */,
+				259889FEC9F336B15D1C7BE1BB82D13D /* UIActivityIndicatorView+Flex.h */,
+				D0E041F0BBC89923A43F6704A3E04194 /* UIActivityIndicatorView+Flex.m */,
+				744613031A746112B229C45B61319B6E /* UIButton+Flex.h */,
+				69AB1BF725A6F785DDD1039F16EE5DF8 /* UIButton+Flex.m */,
+				4F4133EB198BFB3284B56C8491368405 /* UIControl+Flex.h */,
+				FC5D5DA6082DC3AD47684FF8068323E4 /* UIControl+Flex.m */,
+				57D977A21CD0279E21A3AFC528AC3874 /* UIDatePicker+Flex.h */,
+				96EAC3BDE7CB948A019B4BA82AB296F1 /* UIDatePicker+Flex.m */,
+				243566BD19461BEC9B4811D73DA6D2C9 /* UIImageView+Flex.h */,
+				FBF8F209D141948E59E98F4A17DDF520 /* UIImageView+Flex.m */,
+				2044EF953BB7CA5D5798BE0DED75F61A /* UILabel+Flex.h */,
+				1BEC533F734C818611241E328EA5B032 /* UILabel+Flex.m */,
+				E69E580D7E0241BB916F9BAB1967AF81 /* UIPageControl+Flex.h */,
+				4755E106E1D81C5061EAB84F5959F16A /* UIPageControl+Flex.m */,
+				B39C7900F1B6614E9B940DEE106C86E0 /* UIPickerView+Flex.h */,
+				01D5981230938670689C9D035D6D3A61 /* UIPickerView+Flex.m */,
+				51AF25269FA6C9B044A35A36803563F5 /* UIProgressView+Flex.h */,
+				3F227FEB072CFA91DBF2BCA16B54909B /* UIProgressView+Flex.m */,
+				4A00F6111B2C322865D9C904B4289274 /* UIScrollView+Flex.h */,
+				5434F2F4F73A2FCFD3B64D82F6A88695 /* UIScrollView+Flex.m */,
+				F1FF03982B8D39E632FEC060185A81A0 /* UISearchBar+Flex.h */,
+				B767AF8D0F17AA53DE33CAE4270FB376 /* UISearchBar+Flex.m */,
+				D915B306067B30960DCFE2E50BFEBA16 /* UISegmentedControl+Flex.h */,
+				559A0149BBA463AA4E0235DD0E587D0D /* UISegmentedControl+Flex.m */,
+				85A3FB739CFC50CDC36927852D0F3861 /* UISlider+Flex.h */,
+				09D47D0F7FCDF06DCDA736BF2AFB041A /* UISlider+Flex.m */,
+				5B467BD9A626560A4D5338E1A0FA7A24 /* UIStepper+Flex.h */,
+				A3859A4E3333CB98D79B68D57042ABEB /* UIStepper+Flex.m */,
+				1188E0AE218C9C75D4A477ED26821129 /* UISwitch+Flex.h */,
+				FECBD6EC53B05236576ADFC238D52635 /* UISwitch+Flex.m */,
+				104340C31D73616DFB616572A37061ED /* UITabBar+Flex.h */,
+				288A483FB1A9C8619EE12DF1BC781206 /* UITabBar+Flex.m */,
+				AB690E0CF585121EAEFCA60D284FE674 /* UITextField+Flex.h */,
+				C161111E92143F8E73A5EBD1592CF302 /* UITextField+Flex.m */,
+				92DF125E725BD47E186556814DB700D0 /* UITextView+Flex.h */,
+				9AD15FDD0BB79176C2C3DC458F4CC0D8 /* UITextView+Flex.m */,
+				AE4217E545184B10E4AA920920C74C08 /* UIToolbar+Flex.h */,
+				978BC0786E4708EDC91496589654A999 /* UIToolbar+Flex.m */,
+				8B2648F6BB7D440B27C858C1D3D00A0F /* UIView+Flex.h */,
+				F5A39FF9BF3363F9092C99586CC0DB9B /* UIView+Flex.m */,
+				E8652B606B9E88B5353D1EFBE67B69B2 /* UIView+Yoga.h */,
+				850F4A0E1824499392F11FCB1D9B7BEE /* UIView+Yoga.m */,
+				9EA734C7610849B9209A8B1ECD15B5FE /* YGLayout.h */,
+				66CC0C7FE5321725D152A7D5CA39BF2D /* YGLayout.m */,
+				E91A388E726CDDA663A03C8C1F2C2BBC /* YGLayout+Private.h */,
+				C748D1FC36F9198FB61B8FFFF3AB13CE /* no-arc */,
+				54F5E7C14309A34CC3644CD437E38991 /* Resources */,
+				EA56EB91F989195BC97D230CF6651B4F /* Support Files */,
+			);
+			name = FlexLib;
+			path = FlexLib;
+			sourceTree = "<group>";
+		};
+		54F5E7C14309A34CC3644CD437E38991 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				466014EADE6A4494FE312189B74D7755 /* Base.lproj */,
+				396EC78FCBB37592B1174B9D11A486EA /* FlexHttpVC.xml */,
+				3182EE016F6DF24B8376030ADEF8AB7D /* FlexLayoutViewerVC.xml */,
+				B49841B67345CFA67AB51FD2BC5FDD3A /* FlexSetPreviewVC.xml */,
+				6F933E48274508553C8457F0E5C81D1F /* zh-Hans.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5D36710D4D2DB5DC264DF020A1449C4B /* Yoga */ = {
+			isa = PBXGroup;
+			children = (
+				E5E5F3E308ABE75808587D487002B551 /* CompactValue.h */,
+				F2FC63D2830C17EFBA9D6A407A6AA609 /* instrumentation.h */,
+				BC6B53DA59C7C012B629959F2D58616E /* log.cpp */,
+				63341D16571E05E644FB2F6B4BEDA765 /* log.h */,
+				A1D8541E7521510651B9257796E86081 /* Utils.cpp */,
+				24486DBC529A515C0D0D1734B4F2ED1E /* Utils.h */,
+				A6F5255C7AC4B1EE46C6D21C1FA02CF7 /* YGConfig.cpp */,
+				711DDF71F9BCE7933890F77EE3945726 /* YGConfig.h */,
+				48CEEEF1D0429603F69E02AE75E76EBF /* YGEnums.cpp */,
+				02280ACC6D9272B09FF458D6DE30A062 /* YGEnums.h */,
+				1965905E8F7B43DDA83C9B316648FE0F /* YGFloatOptional.h */,
+				703BC410D2E7C4C28BC6835C21217226 /* YGLayout.cpp */,
+				CAA71F778D319393BE0D39BE0ABDABA3 /* YGLayout.h */,
+				8732C284259FD5C775D8EB65861163D2 /* YGMacros.h */,
+				33EC5208A046B9FF5D22D78AFA9842F2 /* YGMarker.cpp */,
+				9C97FDC50279FE62C2E5A7F39492C3C9 /* YGMarker.h */,
+				43EC81597E49F3B9402B5B6E5E200FB6 /* YGNode.cpp */,
+				FCCEDA10B2415B5D521C1E98511C7EBB /* YGNode.h */,
+				D39BAA2DE31EC2D34C630E14A17D79FE /* YGNodePrint.cpp */,
+				9F92EB953B74B9C568D14A5AA769BB48 /* YGNodePrint.h */,
+				840A66BE563E307ABE32A88DC41386C6 /* YGStyle.cpp */,
+				521B776BBDC310006563A1CE13849F43 /* YGStyle.h */,
+				471AF995AAA8010C4C38651814D45FE0 /* YGValue.cpp */,
+				599DE504BF525AA02E01C5157673C2A8 /* YGValue.h */,
+				8DBDE7F7DB932BF2E61CA2DDC7C38E4A /* Yoga.cpp */,
+				19225472A0C7292E0D81417E89088419 /* Yoga.h */,
+				3B005A566C83B1AD72B6E96A612775E2 /* Yoga-internal.h */,
+				97D84E0C56D2AD77D9FE7FD505AE5A19 /* Support Files */,
+			);
+			name = Yoga;
+			path = Yoga;
+			sourceTree = "<group>";
+		};
+		97D84E0C56D2AD77D9FE7FD505AE5A19 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB0ECC73EF1239BDF8F5C00C85F45707 /* Yoga.modulemap */,
+				49E203B2DD2DDB91B297C72DE7FCA2E4 /* Yoga.xcconfig */,
+				AFD9B73489EE2AA60DCF1C94C0641482 /* Yoga-dummy.m */,
+				AA381EFE0BB1ACFCF39541E921E138B7 /* Yoga-Info.plist */,
+				05B08CD2793A6DD3D629CDC847968F67 /* Yoga-prefix.pch */,
+				9EACA2B44A2E3F18E003CD7B7D83D45B /* Yoga-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Yoga";
+			sourceTree = "<group>";
+		};
+		981C960E9017CACF63784D875DEDC497 /* Pods-MedicineReminder */ = {
+			isa = PBXGroup;
+			children = (
+				2D15F1A9DAC3255F93186EFC3F884754 /* Pods-MedicineReminder.modulemap */,
+				D2B7D4F2CF83F4F24CA2A85696064B43 /* Pods-MedicineReminder-acknowledgements.markdown */,
+				325AF26D7B843F4803FC50FC5CF4458B /* Pods-MedicineReminder-acknowledgements.plist */,
+				4BE5AB6F7FC2ABD34183233BF022723F /* Pods-MedicineReminder-dummy.m */,
+				DC6EFC6B854731A9EDF5D8BCD1C6087F /* Pods-MedicineReminder-frameworks.sh */,
+				5577155554AF721D9C194EFD07E24CAE /* Pods-MedicineReminder-Info.plist */,
+				3C5FA1631568D9CE439967EE00795B1D /* Pods-MedicineReminder-umbrella.h */,
+				2190A2A46B5149900EB668EA2A54C379 /* Pods-MedicineReminder.debug.xcconfig */,
+				6AB09813D79BC22E01604D0FE055C2F5 /* Pods-MedicineReminder.release.xcconfig */,
+			);
+			name = "Pods-MedicineReminder";
+			path = "Target Support Files/Pods-MedicineReminder";
+			sourceTree = "<group>";
+		};
+		A1B20EF2AD0CFF948CFF0F74882819FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB62BB488A0F7921D5EE3A49209AB794 /* yoga.framework */,
+				B0CD0ABF0231F3ED940D8C65B5355B05 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0CD0ABF0231F3ED940D8C65B5355B05 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				930D90136194D3C6E4A71922C603017A /* Foundation.framework */,
+				0752A2DF1298D9F5C6D9FD04DA1417B8 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B511B73B8B5676F9CD8A79F9606C8062 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FCBFA00A2A1FC6D3AC79954D7535389 /* BEMCheckBox.framework */,
+				43DA03B9363F019D2DAB24B6A973ED2C /* DZNEmptyDataSet.framework */,
+				48E0C382BFDA93B8830FB173D40D208F /* FlexLib.bundle */,
+				C8743BA8C4C57D911CA3C5C832C99342 /* FlexLib.framework */,
+				4F35264F03AD003AFE73ED2E4D906310 /* Pods_MedicineReminder.framework */,
+				8857F1ACF89596C968300D5C0267C8E9 /* Pods_MedicineReminderTests.framework */,
+				9EE12D6C024818CD486DF70C166F7431 /* Pods_MedicineReminderUITests.framework */,
+				11851975FA41DA4F23B95D9B5353B3E2 /* yoga.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6154D8B4BCEBECA08A1A40ECF510EEA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				82EBD93981AFFACEB5B197B2CDB1D1F8 /* DZNEmptyDataSet.modulemap */,
+				A8B7EEB3CB4C8FB7F0989AB9AAC1B6C7 /* DZNEmptyDataSet.xcconfig */,
+				85AE0488B22572B231A0E201BDF946C3 /* DZNEmptyDataSet-dummy.m */,
+				CCEAAEC162DC268508776EF45E26BA3F /* DZNEmptyDataSet-Info.plist */,
+				54F361B476C8246A07C3D459B1BE7207 /* DZNEmptyDataSet-prefix.pch */,
+				C1F4C90B983575E6DBB020127EB5CE9C /* DZNEmptyDataSet-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DZNEmptyDataSet";
+			sourceTree = "<group>";
+		};
+		B97E106051D28A3AE5B778B8250AEBB8 /* BEMCheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				49FD8B10420B3F35CE2355BD5B9F0A26 /* BEMAnimationManager.h */,
+				7C78257A00C04B8AAD1174CA73B98920 /* BEMAnimationManager.m */,
+				75D5D8E0AB0A84DD15550A5E5502039D /* BEMCheckBox.h */,
+				A28C077377FA78300634773BF4663502 /* BEMCheckBox.m */,
+				4E5162CFD00B54E6AA68FF8A25AC4760 /* BEMCheckBoxGroup.h */,
+				878E555D70ACD6BEC665CD98476A4FFA /* BEMCheckBoxGroup.m */,
+				6AF30B97A5D20FAC9D6B72B2E9068E0C /* BEMPathManager.h */,
+				59967C96BD303EAFF9FF746768613DF8 /* BEMPathManager.m */,
+				39AD74DDFEAEC062B77CEFF037E0EEDB /* Support Files */,
+			);
+			name = BEMCheckBox;
+			path = BEMCheckBox;
+			sourceTree = "<group>";
+		};
+		C748D1FC36F9198FB61B8FFFF3AB13CE /* no-arc */ = {
+			isa = PBXGroup;
+			children = (
+				6488939E33E24DFA6F0704764FCEE9A8 /* GDataXMLNode.h */,
+				44A4C94B37851C50B5981B1B85940474 /* GDataXMLNode.m */,
+			);
+			name = "no-arc";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A1B20EF2AD0CFF948CFF0F74882819FA /* Frameworks */,
+				0FB8E850E5974F6D0D6CAB0F5D8CB33E /* Pods */,
+				B511B73B8B5676F9CD8A79F9606C8062 /* Products */,
+				36B3506FCA9133979A87D7F0E9FAD9E2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EA56EB91F989195BC97D230CF6651B4F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBC1732DEFC4BB40134EBB67169A00AA /* FlexLib.modulemap */,
+				82F8AB9037DF871B603026F7461BB929 /* FlexLib.xcconfig */,
+				3E24DC8AE4578BF7B459F05DD8F9E44C /* FlexLib-dummy.m */,
+				28858696ADE1587F7E994CF329E82DF6 /* FlexLib-Info.plist */,
+				54B6D2EFE4C6529E717C259CFF0678C4 /* FlexLib-prefix.pch */,
+				2D66FDFD86CDB1FD5F2F8D5A378B3AA7 /* FlexLib-umbrella.h */,
+				5BC7856FD86A104038DFCADCC0B6B6FF /* ResourceBundle-FlexLib-FlexLib-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FlexLib";
+			sourceTree = "<group>";
+		};
+		EEBDEA29E918F26714E3B5A7F4EA8DA5 /* Pods-MedicineReminderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8089A899E460ECCAF87B92ABC1867ACD /* Pods-MedicineReminderUITests.modulemap */,
+				3D100724802A0626312C7C7AD696DB87 /* Pods-MedicineReminderUITests-acknowledgements.markdown */,
+				2D591A3621B7054EC186BE2E5B6C464B /* Pods-MedicineReminderUITests-acknowledgements.plist */,
+				951624CF7C23F423F5F86CE924B5F6AE /* Pods-MedicineReminderUITests-dummy.m */,
+				74EBDB18D366CE76D08C943404A33ACF /* Pods-MedicineReminderUITests-Info.plist */,
+				2CDF157D6A420B25713E477533C89CAE /* Pods-MedicineReminderUITests-umbrella.h */,
+				9A760E69B1ABDFF9CB86BE4CC8442AC6 /* Pods-MedicineReminderUITests.debug.xcconfig */,
+				B297C81851A185E4D92E29FD4357EB53 /* Pods-MedicineReminderUITests.release.xcconfig */,
+			);
+			name = "Pods-MedicineReminderUITests";
+			path = "Target Support Files/Pods-MedicineReminderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3DB11B786AB1D0DC72B4C4F8FBFADFEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54667F7E743A96C1A58355EA90858B35 /* FlexBaseTableCell.h in Headers */,
+				71464B6FACEFD5592C87461F2D7A439D /* FlexBaseVC.h in Headers */,
+				CFA082CF7428AE3ECAF987185EE428BC /* FlexCollectionCell.h in Headers */,
+				9D1BBCCC0EF856147CD8189522C41692 /* FlexCollectionView.h in Headers */,
+				FDC5C69BEA144B5259DC7C6AF7D7C2BC /* FlexContainerView.h in Headers */,
+				1F697857948B3D92ADCBEA6BD1C55FB9 /* FlexCustomBaseView.h in Headers */,
+				700CE07676645078B3570DEADBE4865D /* FlexFrameView.h in Headers */,
+				B0F90171CFAF4A1BFEEA27182FCA2F78 /* FlexHttpVC.h in Headers */,
+				904DD77BA0E759E4511698C8B1FFA138 /* FlexLayoutViewerVC.h in Headers */,
+				321EDA8198F57CACC64FD20E80E998B4 /* FlexLib-umbrella.h in Headers */,
+				49053E9F620EDE37736F7C5260489CFA /* FlexLib.h in Headers */,
+				D04F532730184FD67CE781E056F49943 /* FlexModalView.h in Headers */,
+				C86BEA5BC4A16EF8DE094AC6E5BF535E /* FlexNode.h in Headers */,
+				279D49EB8ADAAD55AF48A0F3D5869DE7 /* FlexParentView.h in Headers */,
+				DA63B7DD363111FDBA4CDD9CADCF0C02 /* FlexRootView.h in Headers */,
+				9B9152398A201655EC30596A56BD42B0 /* FlexScrollView.h in Headers */,
+				FE5E5D76DD7A8586CB5A092293D74A8A /* FlexSetPreviewVC.h in Headers */,
+				49EC46D3FF1C5B41E75520AC76EDF746 /* FlexStyleMgr.h in Headers */,
+				AFDAAEB0FD5EF38E08768E7B45D1C544 /* FlexTextView.h in Headers */,
+				3F989DA50BF70D83D58D7BB7EABB9C7C /* FlexTouchMaskView.h in Headers */,
+				67918757DC8C857E5F28DA4D13087528 /* FlexTouchView.h in Headers */,
+				375903F04CC2EBC7F17FF551E39BAEC2 /* FlexUtils.h in Headers */,
+				AE99270477E18F6917C59DA6F6CFBDE9 /* FlexXmlBaseView.h in Headers */,
+				295AEDD32AEC52A9920B5E42BFF64730 /* GDataXMLNode.h in Headers */,
+				62023930EB7ECC1BE98B9DFB3C729D0E /* UIActivityIndicatorView+Flex.h in Headers */,
+				04DA1D1E0EE34DDD14336131AAA1BF41 /* UIButton+Flex.h in Headers */,
+				96844D33325E22272A0225DAA5AC0B5F /* UIControl+Flex.h in Headers */,
+				0A4B0DFAD20DCFBEAD21AD6100DF9909 /* UIDatePicker+Flex.h in Headers */,
+				0A494FEB8BECADC3B7C90871DE1D8C32 /* UIImageView+Flex.h in Headers */,
+				610C1CCE29627EA1FD7E3AED39AE9FFD /* UILabel+Flex.h in Headers */,
+				E58947D7825A814119E93BA3E495EB9C /* UIPageControl+Flex.h in Headers */,
+				ADF6CC00EBADECB024FB65ACE3F0AAF6 /* UIPickerView+Flex.h in Headers */,
+				7C6262F8346C5534CB51117031771CCD /* UIProgressView+Flex.h in Headers */,
+				4AF40E351FB345B09C2B0ADBCD9DC65F /* UIScrollView+Flex.h in Headers */,
+				E70184EDC6DD2105C3EB6939A5344B5A /* UISearchBar+Flex.h in Headers */,
+				0AAACD8611C88D7DC3E221C47149D104 /* UISegmentedControl+Flex.h in Headers */,
+				5AB9566B8E7067D38BF7DCFC05660F66 /* UISlider+Flex.h in Headers */,
+				790C966C1CD428302E0A29BF367DAA8B /* UIStepper+Flex.h in Headers */,
+				6CD3CEB39F8C5BD6ADB7057EE9C31110 /* UISwitch+Flex.h in Headers */,
+				7582F63CA4B6518A03B4C7B2972E98BB /* UITabBar+Flex.h in Headers */,
+				2159ABAAFA8182275B604560582B8065 /* UITextField+Flex.h in Headers */,
+				F029B1762467687634C951C14B383F3D /* UITextView+Flex.h in Headers */,
+				29C26703D640966B1299AC07FFBD48BA /* UIToolbar+Flex.h in Headers */,
+				F969D3FE1CA975411D8CA319A0A26348 /* UIView+Flex.h in Headers */,
+				C8DB42043556C407C3527107B32DFD2E /* UIView+Yoga.h in Headers */,
+				E1E5C56690B2BE91849ECF7718756630 /* YGLayout+Private.h in Headers */,
+				13CA03224553CF342945E1CBB6FAD7F1 /* YGLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FCA0500C1DE5CCBF1E426C8EE77A77D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708CA0846C915339EFD95C59DBD3713D /* DZNEmptyDataSet-umbrella.h in Headers */,
+				D314FA0B9EAE0E09EE9F718E976583AE /* UIScrollView+EmptyDataSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B626CB77AFF7D790F48DB0E6D30E19B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19301356A5D1D22FAA04F07C2DD37197 /* Pods-MedicineReminderTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAF160D56D19CB5A5A444A343DD1D94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59451C2B4B0888E9E09739314AAA6B5 /* Pods-MedicineReminderUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92126565F41ADF963B4497D51255873 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4C79ABBC5AC44D11726AC3EA0BB172 /* CompactValue.h in Headers */,
+				D8B03962659A91A888B46E973D25A30E /* instrumentation.h in Headers */,
+				6A95CEE3D0E19D294BD67B36D9AF4B54 /* log.h in Headers */,
+				DC21CAC61B61465CB6CF2AE64D565255 /* Utils.h in Headers */,
+				05BEBA48473C9E30CB9122180211B25A /* YGConfig.h in Headers */,
+				B577D268636C97A8D90F5035887B0F2A /* YGEnums.h in Headers */,
+				F7C65BCA17664531B8E3A6218C6D7A15 /* YGFloatOptional.h in Headers */,
+				8D3B3C4EB25059CF284764E02E4254CB /* YGLayout.h in Headers */,
+				9F2A58F1ED001D07B7DAA94991C3F834 /* YGMacros.h in Headers */,
+				65BB4DA7F89FFAB3C4F09821BE1580D8 /* YGMarker.h in Headers */,
+				BF8E39ED79BB8D7855EE6591DAE0AAFF /* YGNode.h in Headers */,
+				305C96EFE7AD380E108F035CC6B38E5F /* YGNodePrint.h in Headers */,
+				46930B74DDC19802C656A0D9A6209ABB /* YGStyle.h in Headers */,
+				F92615A4970A72FEC9A5FCA15F8FA2E8 /* YGValue.h in Headers */,
+				A0A17C059383B37FCB5DD9045563AD01 /* Yoga-internal.h in Headers */,
+				A673B44739B3901F9EFBEA78F5709CD0 /* Yoga-umbrella.h in Headers */,
+				C701914FE5C1F34EEC7CBFAC026DB81D /* Yoga.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDBF6A824570045AA530538B08D7538F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08A40729B93B0EBB5F194B30CABD95D9 /* BEMAnimationManager.h in Headers */,
+				08E93755DC21F4FB59FA038E83523D3B /* BEMCheckBox-umbrella.h in Headers */,
+				9E74C43211AB7EAAE47F59F20916FB43 /* BEMCheckBox.h in Headers */,
+				CE48DB1D6779DB90818674712B52275F /* BEMCheckBoxGroup.h in Headers */,
+				F01A564C063D1F1779EB17DF99E16FE8 /* BEMPathManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF3E6F477FE55DF3963143D81A5359CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6AB200016FC8BE2D0D6BE5239A0EA8E /* Pods-MedicineReminder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07AB7FBCF4614749F7D8AE47AC899EEA /* Pods-MedicineReminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650CBC519DEAFDEF3BC6E66EA1EFA1DA /* Build configuration list for PBXNativeTarget "Pods-MedicineReminderTests" */;
+			buildPhases = (
+				B626CB77AFF7D790F48DB0E6D30E19B2 /* Headers */,
+				C6D6750C810FC74A114BBBACBD0AC361 /* Sources */,
+				A610E8B809548470EA7FC842420C46F7 /* Frameworks */,
+				FAC718F3586F9D844AF9C30B959A630A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AE1DEDED3E44321D0A220ADAD6B1BE0 /* PBXTargetDependency */,
+			);
+			name = "Pods-MedicineReminderTests";
+			productName = "Pods-MedicineReminderTests";
+			productReference = 8857F1ACF89596C968300D5C0267C8E9 /* Pods_MedicineReminderTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2B25F90D819B9ADF2AF2D8733A890333 /* Yoga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F288BC81348880C7A30ADA4519AFFC62 /* Build configuration list for PBXNativeTarget "Yoga" */;
+			buildPhases = (
+				D92126565F41ADF963B4497D51255873 /* Headers */,
+				12345400D8AF4F874DD0B334A7DBB7D9 /* Sources */,
+				BC442ADBC6A21FD9D1DE47B79928ABD2 /* Frameworks */,
+				29E0A08471E9F403AECF41C6E1DDB1B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yoga;
+			productName = Yoga;
+			productReference = 11851975FA41DA4F23B95D9B5353B3E2 /* yoga.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		317454BD8F0A72BD312FCA3621EC3E1E /* FlexLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F774895B74D1EC3BBA4621636BD68835 /* Build configuration list for PBXNativeTarget "FlexLib" */;
+			buildPhases = (
+				3DB11B786AB1D0DC72B4C4F8FBFADFEA /* Headers */,
+				44C875D2737BD2364AA4EE591A8B1378 /* Sources */,
+				5BD1E1480CFCF38E96059BFD51F5F69F /* Frameworks */,
+				5283CBAFD679DCB20983EEAF5D1276DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8004D78F3C535718C81FE5538DCDA1D8 /* PBXTargetDependency */,
+				5055FF6531A509D958AEACEFE61FDFE9 /* PBXTargetDependency */,
+			);
+			name = FlexLib;
+			productName = FlexLib;
+			productReference = C8743BA8C4C57D911CA3C5C832C99342 /* FlexLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6A5529319CC2AEF00850AA699C88A805 /* Pods-MedicineReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 143B2F01388CDF98410050F251E80C8C /* Build configuration list for PBXNativeTarget "Pods-MedicineReminder" */;
+			buildPhases = (
+				EF3E6F477FE55DF3963143D81A5359CA /* Headers */,
+				AE62A32216C9FCC58DB9CFA6810B0C77 /* Sources */,
+				C79C6BA368880363389F8BD15F2B22B1 /* Frameworks */,
+				58EECA1B7CE7BC28FA5B8C4865C21796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28E2CAA362FA460B1AF5361273FB7CC1 /* PBXTargetDependency */,
+				EC7BA65060D6AD899CCB9123CBB96FEC /* PBXTargetDependency */,
+				8CC527C96E2BB9F3EE1DAF343E721D89 /* PBXTargetDependency */,
+				50D2BDDFE261E99CCA7A29E907BE0D50 /* PBXTargetDependency */,
+			);
+			name = "Pods-MedicineReminder";
+			productName = "Pods-MedicineReminder";
+			productReference = 4F35264F03AD003AFE73ED2E4D906310 /* Pods_MedicineReminder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		86B2BB9E445137DD6687C2755B6B601C /* FlexLib-FlexLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83EFF15A450A10474018A641564B94FC /* Build configuration list for PBXNativeTarget "FlexLib-FlexLib" */;
+			buildPhases = (
+				A9B2B6BEF9BB032CC8C365889646916C /* Sources */,
+				E49A2BB4726FE5C7FED826788C6A1E12 /* Frameworks */,
+				9E8DB89568988036C28AA58CD4E5A89D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FlexLib-FlexLib";
+			productName = "FlexLib-FlexLib";
+			productReference = 48E0C382BFDA93B8830FB173D40D208F /* FlexLib.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B4315C804D18AF023D6D89A8281BF589 /* BEMCheckBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A460F83875DA678F17A8FE496A6A9315 /* Build configuration list for PBXNativeTarget "BEMCheckBox" */;
+			buildPhases = (
+				DDBF6A824570045AA530538B08D7538F /* Headers */,
+				DC5D12F67AA103B478F96D3E3DCF9388 /* Sources */,
+				C3C67B29B6413DA21E23E522EB2B46FE /* Frameworks */,
+				E4C221003B1DB13AC9129613782808F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BEMCheckBox;
+			productName = BEMCheckBox;
+			productReference = 7FCBFA00A2A1FC6D3AC79954D7535389 /* BEMCheckBox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB54C2CE2EB2DF3AE52CAB18DE113C80 /* Pods-MedicineReminderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB5F7E1DA1F144540447F92912B1C34B /* Build configuration list for PBXNativeTarget "Pods-MedicineReminderUITests" */;
+			buildPhases = (
+				BFAF160D56D19CB5A5A444A343DD1D94 /* Headers */,
+				5DB65D47443FCC4CE72146CA30506E47 /* Sources */,
+				BF107CEBF2555D84188FDD5147BF0674 /* Frameworks */,
+				8CA629386C602B74F2890530C721238D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB51146F15B0A4DA8350985DF8C6A34D /* PBXTargetDependency */,
+			);
+			name = "Pods-MedicineReminderUITests";
+			productName = "Pods-MedicineReminderUITests";
+			productReference = 9EE12D6C024818CD486DF70C166F7431 /* Pods_MedicineReminderUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1BCD9702276377FB5B3BDB6EAF709D7 /* DZNEmptyDataSet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E247B679229F323E8B52D483BEDD7E55 /* Build configuration list for PBXNativeTarget "DZNEmptyDataSet" */;
+			buildPhases = (
+				6FCA0500C1DE5CCBF1E426C8EE77A77D /* Headers */,
+				4512BEC0CFE29C1E3EB97CA984CB027C /* Sources */,
+				A9E51BC5E6D969E8DD100BA8AB7DFB69 /* Frameworks */,
+				5C68ED540AC86354E6C5418CBA597D45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DZNEmptyDataSet;
+			productName = DZNEmptyDataSet;
+			productReference = 43DA03B9363F019D2DAB24B6A973ED2C /* DZNEmptyDataSet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B511B73B8B5676F9CD8A79F9606C8062 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4315C804D18AF023D6D89A8281BF589 /* BEMCheckBox */,
+				F1BCD9702276377FB5B3BDB6EAF709D7 /* DZNEmptyDataSet */,
+				317454BD8F0A72BD312FCA3621EC3E1E /* FlexLib */,
+				86B2BB9E445137DD6687C2755B6B601C /* FlexLib-FlexLib */,
+				6A5529319CC2AEF00850AA699C88A805 /* Pods-MedicineReminder */,
+				07AB7FBCF4614749F7D8AE47AC899EEA /* Pods-MedicineReminderTests */,
+				BB54C2CE2EB2DF3AE52CAB18DE113C80 /* Pods-MedicineReminderUITests */,
+				2B25F90D819B9ADF2AF2D8733A890333 /* Yoga */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29E0A08471E9F403AECF41C6E1DDB1B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5283CBAFD679DCB20983EEAF5D1276DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4746493D18D1B296A57E9F308E74B9D /* FlexLib.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58EECA1B7CE7BC28FA5B8C4865C21796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C68ED540AC86354E6C5418CBA597D45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA629386C602B74F2890530C721238D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E8DB89568988036C28AA58CD4E5A89D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A4866CED200E0B82C0A28DF49D2AF51 /* Base.lproj in Resources */,
+				EB96B792236B673B86A25827B84CFD6D /* FlexHttpVC.xml in Resources */,
+				B93992B3C0FA1E10608E640DBA682C61 /* FlexLayoutViewerVC.xml in Resources */,
+				A181910A696857EFB297CE7592A83D2F /* FlexSetPreviewVC.xml in Resources */,
+				9F67E43E9E9E6EE254B60633BD1CE5C6 /* zh-Hans.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C221003B1DB13AC9129613782808F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC718F3586F9D844AF9C30B959A630A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12345400D8AF4F874DD0B334A7DBB7D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D424CB4C4B5F1627C77045E457A63E1 /* log.cpp in Sources */,
+				DD56F6851D274E51FF2B84F842FCBEBD /* Utils.cpp in Sources */,
+				851109EA41F066547FC8D0B32915E576 /* YGConfig.cpp in Sources */,
+				2D24D6FFE3EBBF16F59CF912D1F09082 /* YGEnums.cpp in Sources */,
+				6C71D16B53E416A226A0A7029BE740FB /* YGLayout.cpp in Sources */,
+				0FAEA0D9CB83D3A3B714C49C34857EEF /* YGMarker.cpp in Sources */,
+				0FE7C49C0280E1A5668F6F967F036170 /* YGNode.cpp in Sources */,
+				314CBE1EA86E5FFD3A2A5F21C75DF12F /* YGNodePrint.cpp in Sources */,
+				167E158DA615DFD323EF50BC23B5C510 /* YGStyle.cpp in Sources */,
+				EAF14F7A991B9D2DC91CB8892750A29C /* YGValue.cpp in Sources */,
+				7A3098D26771FAE45C0E218CF47236DF /* Yoga-dummy.m in Sources */,
+				CE8890477D5C097477945ADF4E5D2969 /* Yoga.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C875D2737BD2364AA4EE591A8B1378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB96BE9AB35B4A8AB807D624A417AF4 /* FlexBaseTableCell.m in Sources */,
+				36B93463FB8AE7A3122962C934B1ACAE /* FlexBaseVC.m in Sources */,
+				986135EFE712DFA6ACA8CB151AC17DE9 /* FlexCollectionCell.m in Sources */,
+				1425DBA69282562A87AEA3A61E51A372 /* FlexCollectionView.m in Sources */,
+				287D43638988810BCA3E550D23418D9B /* FlexContainerView.m in Sources */,
+				C9A1CB99D59A2A120825F1DEC5EBD433 /* FlexCustomBaseView.m in Sources */,
+				21F74251B6B4AB4C7579C958E2599FB7 /* FlexFrameView.m in Sources */,
+				536D824F52690127867497EDD3CAF162 /* FlexHttpVC.m in Sources */,
+				28DF5FA621C781E0F78A8BD8FA017858 /* FlexLayoutViewerVC.m in Sources */,
+				4C1F6439CACB55289F4A91221A39E077 /* FlexLib-dummy.m in Sources */,
+				63868CB7A014DD11CA7D7350B877D77A /* FlexModalView.m in Sources */,
+				967EB60997995A25F77837F35A55475F /* FlexNode.m in Sources */,
+				844A4C2DAFAF478650100F46D07C9EDC /* FlexParentView.m in Sources */,
+				22006E092C9643DFC7A46CEB075CF026 /* FlexRootView.m in Sources */,
+				2D9322DC6AA5635C936D71BD4D721F84 /* FlexScrollView.m in Sources */,
+				22697868BDFB90303D268BC6583B5A7E /* FlexSetPreviewVC.m in Sources */,
+				4215BBA5A67213E0F5E23A20B958C2CC /* FlexStyleMgr.m in Sources */,
+				1CD48A21FB9073D0703F73470EA75BC8 /* FlexTextView.m in Sources */,
+				8302E82DEC68E090F8219E577E620FA6 /* FlexTouchMaskView.m in Sources */,
+				3299AC8AEB74E89B562834EC74532EA1 /* FlexTouchView.m in Sources */,
+				5BFEFDBB19B68140767F873C38E021B8 /* FlexUtils.m in Sources */,
+				C8653FD618AB0C2D169E9E2BD79BE83C /* FlexXmlBaseView.m in Sources */,
+				EFF87F189C491100079FB3B248D6DB43 /* GDataXMLNode.m in Sources */,
+				3FBAA2C9EA2184A4D30B534A0FA51EA6 /* UIActivityIndicatorView+Flex.m in Sources */,
+				EF759E3602BEE8C3215972AD315A86BA /* UIButton+Flex.m in Sources */,
+				A9DCDFF09E92561695C0B59BB8690EC7 /* UIControl+Flex.m in Sources */,
+				AB0207B8FA78326D5467A46A2C024A04 /* UIDatePicker+Flex.m in Sources */,
+				F9A90CEF296DA6321A14CA1FAD21D275 /* UIImageView+Flex.m in Sources */,
+				3FB984FC4BBAB738DC8507FFF6A2D3F1 /* UILabel+Flex.m in Sources */,
+				27DE1226A2B25FD2558C4B89E89AF4A7 /* UIPageControl+Flex.m in Sources */,
+				89EE830544AABBC2D6EBDB8213254E29 /* UIPickerView+Flex.m in Sources */,
+				6F2E244217B288DB4134662FFBA4C87D /* UIProgressView+Flex.m in Sources */,
+				74B8460298B3BDA1B245355D092F9D02 /* UIScrollView+Flex.m in Sources */,
+				00792539A24DBB48617037BA4EDBD5EA /* UISearchBar+Flex.m in Sources */,
+				F02227B911AC650793125A67FE81532F /* UISegmentedControl+Flex.m in Sources */,
+				C39CBBF542F274977825E5920C77DB00 /* UISlider+Flex.m in Sources */,
+				3AD4D9FFF7E912585E52A104CFF93412 /* UIStepper+Flex.m in Sources */,
+				4D04F12D479644799AB9C63DACD0B7F8 /* UISwitch+Flex.m in Sources */,
+				5CA506CBF82C2EFDAF5F7DBC144A4EA5 /* UITabBar+Flex.m in Sources */,
+				6125084A18FCD81FDEB8665CDA967192 /* UITextField+Flex.m in Sources */,
+				FAD2A8115AC731011C7353B86AC6DE70 /* UITextView+Flex.m in Sources */,
+				D079537D10C21755341FB5DCF87F60FB /* UIToolbar+Flex.m in Sources */,
+				51FF98D3D699E22571648BB3DCC11956 /* UIView+Flex.m in Sources */,
+				BCF67AF588CAFF81EF39EC42CE143CB8 /* UIView+Yoga.m in Sources */,
+				B586487FDB6F9FF5FFC10D28216DEC52 /* YGLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4512BEC0CFE29C1E3EB97CA984CB027C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2EB6277D219AC895EFFC0C3BB9CDED /* DZNEmptyDataSet-dummy.m in Sources */,
+				7D01A6D1C4184603D93B82D01DF4572B /* UIScrollView+EmptyDataSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB65D47443FCC4CE72146CA30506E47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				947375827B5FD33CE7E9CB424BFC33D8 /* Pods-MedicineReminderUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B2B6BEF9BB032CC8C365889646916C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE62A32216C9FCC58DB9CFA6810B0C77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CA6EDCB6EB345552768BDBE4B152BA /* Pods-MedicineReminder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6D6750C810FC74A114BBBACBD0AC361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED8B9A119D31461251143793E9EA145 /* Pods-MedicineReminderTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC5D12F67AA103B478F96D3E3DCF9388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FE63DE3411385742C332A05AB0DF85B /* BEMAnimationManager.m in Sources */,
+				2501C61C4A4A5AAC062B729E9674CC7D /* BEMCheckBox-dummy.m in Sources */,
+				E3BA6175AF34525C9D387C8E46724026 /* BEMCheckBox.m in Sources */,
+				3E51732B0D4F7B85F6AC3D96AC9121B6 /* BEMCheckBoxGroup.m in Sources */,
+				2F6A0F9CFA4F186ABD3112A58F8E79CD /* BEMPathManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AE1DEDED3E44321D0A220ADAD6B1BE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MedicineReminder";
+			target = 6A5529319CC2AEF00850AA699C88A805 /* Pods-MedicineReminder */;
+			targetProxy = 56829EB39A5A18C3C9F66AAC4D3F136D /* PBXContainerItemProxy */;
+		};
+		28E2CAA362FA460B1AF5361273FB7CC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BEMCheckBox;
+			target = B4315C804D18AF023D6D89A8281BF589 /* BEMCheckBox */;
+			targetProxy = 247803785DAAA2F7BD8E955FC884314E /* PBXContainerItemProxy */;
+		};
+		5055FF6531A509D958AEACEFE61FDFE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Yoga;
+			target = 2B25F90D819B9ADF2AF2D8733A890333 /* Yoga */;
+			targetProxy = 1A4CF1897E17016B2F95C6009ABCF971 /* PBXContainerItemProxy */;
+		};
+		50D2BDDFE261E99CCA7A29E907BE0D50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Yoga;
+			target = 2B25F90D819B9ADF2AF2D8733A890333 /* Yoga */;
+			targetProxy = F2EA44343B6AB530B4C7CEE4C89A3BD2 /* PBXContainerItemProxy */;
+		};
+		8004D78F3C535718C81FE5538DCDA1D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FlexLib-FlexLib";
+			target = 86B2BB9E445137DD6687C2755B6B601C /* FlexLib-FlexLib */;
+			targetProxy = 3159518C7344A49BA64F43246ECC6BF1 /* PBXContainerItemProxy */;
+		};
+		8CC527C96E2BB9F3EE1DAF343E721D89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlexLib;
+			target = 317454BD8F0A72BD312FCA3621EC3E1E /* FlexLib */;
+			targetProxy = 5528860B11E64266D1848CE800C6F74D /* PBXContainerItemProxy */;
+		};
+		EC7BA65060D6AD899CCB9123CBB96FEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DZNEmptyDataSet;
+			target = F1BCD9702276377FB5B3BDB6EAF709D7 /* DZNEmptyDataSet */;
+			targetProxy = D19A32CBD4C5C623B784B1A2B8B2C868 /* PBXContainerItemProxy */;
+		};
+		FB51146F15B0A4DA8350985DF8C6A34D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MedicineReminder";
+			target = 6A5529319CC2AEF00850AA699C88A805 /* Pods-MedicineReminder */;
+			targetProxy = FC217AF012141EF46D6A4CA30F3291F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02070653703B74FCA3569C4400F8E0A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2190A2A46B5149900EB668EA2A54C379 /* Pods-MedicineReminder.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MedicineReminder/Pods-MedicineReminder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MedicineReminder/Pods-MedicineReminder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0DAC1C70275A8720FEC7217120F1DA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6003347C32F2554753D1B30D973EEB18 /* Pods-MedicineReminderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MedicineReminderTests/Pods-MedicineReminderTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MedicineReminderTests/Pods-MedicineReminderTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		354A3B2E6805F7553502D29B4E272A15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82F8AB9037DF871B603026F7461BB929 /* FlexLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FlexLib";
+				INFOPLIST_FILE = "Target Support Files/FlexLib/ResourceBundle-FlexLib-FlexLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FlexLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		697188C6EC3A6EFB058275D32AEFEA11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82F8AB9037DF871B603026F7461BB929 /* FlexLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlexLib/FlexLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlexLib/FlexLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FlexLib/FlexLib.modulemap";
+				PRODUCT_MODULE_NAME = FlexLib;
+				PRODUCT_NAME = FlexLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F976FDDE2A55106AFD97AD88AC6EAE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49E203B2DD2DDB91B297C72DE7FCA2E4 /* Yoga.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Yoga/Yoga-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Yoga/Yoga-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Yoga/Yoga.modulemap";
+				PRODUCT_MODULE_NAME = yoga;
+				PRODUCT_NAME = yoga;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71551F262F5D06F5675148292D29BE21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82F8AB9037DF871B603026F7461BB929 /* FlexLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FlexLib";
+				INFOPLIST_FILE = "Target Support Files/FlexLib/ResourceBundle-FlexLib-FlexLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FlexLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		77225751999CCC030310467AF84ED287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B297C81851A185E4D92E29FD4357EB53 /* Pods-MedicineReminderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MedicineReminderUITests/Pods-MedicineReminderUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MedicineReminderUITests/Pods-MedicineReminderUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A06AAB8C70B5A4D900EC7DD6DFF26266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8B7EEB3CB4C8FB7F0989AB9AAC1B6C7 /* DZNEmptyDataSet.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet.modulemap";
+				PRODUCT_MODULE_NAME = DZNEmptyDataSet;
+				PRODUCT_NAME = DZNEmptyDataSet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A59573C4094C2D9A811570F644EF6ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0EE38FAAED61A96E391B2FBFAC20F2C /* Pods-MedicineReminderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MedicineReminderTests/Pods-MedicineReminderTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MedicineReminderTests/Pods-MedicineReminderTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD087809C949E984EE4B45FBE2898E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49E203B2DD2DDB91B297C72DE7FCA2E4 /* Yoga.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Yoga/Yoga-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Yoga/Yoga-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Yoga/Yoga.modulemap";
+				PRODUCT_MODULE_NAME = yoga;
+				PRODUCT_NAME = yoga;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C73424BCE8EF9A60E80EB55899B05A5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55FA39A2E8AE3778C16E13A848353891 /* BEMCheckBox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BEMCheckBox/BEMCheckBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BEMCheckBox/BEMCheckBox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BEMCheckBox/BEMCheckBox.modulemap";
+				PRODUCT_MODULE_NAME = BEMCheckBox;
+				PRODUCT_NAME = BEMCheckBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8E9485B19D82A55482EE2382910AF1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8B7EEB3CB4C8FB7F0989AB9AAC1B6C7 /* DZNEmptyDataSet.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet.modulemap";
+				PRODUCT_MODULE_NAME = DZNEmptyDataSet;
+				PRODUCT_NAME = DZNEmptyDataSet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D5CF24E800080C2C3D340596EAAE81FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55FA39A2E8AE3778C16E13A848353891 /* BEMCheckBox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BEMCheckBox/BEMCheckBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BEMCheckBox/BEMCheckBox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BEMCheckBox/BEMCheckBox.modulemap";
+				PRODUCT_MODULE_NAME = BEMCheckBox;
+				PRODUCT_NAME = BEMCheckBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E486273EC77ED829A17AB1616F6ACCF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82F8AB9037DF871B603026F7461BB929 /* FlexLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlexLib/FlexLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlexLib/FlexLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FlexLib/FlexLib.modulemap";
+				PRODUCT_MODULE_NAME = FlexLib;
+				PRODUCT_NAME = FlexLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9C855204D595D4E05785FB617FE870A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A760E69B1ABDFF9CB86BE4CC8442AC6 /* Pods-MedicineReminderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MedicineReminderUITests/Pods-MedicineReminderUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MedicineReminderUITests/Pods-MedicineReminderUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0452EC17C2731A9D363C9B1502A84C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AB09813D79BC22E01604D0FE055C2F5 /* Pods-MedicineReminder.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MedicineReminder/Pods-MedicineReminder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MedicineReminder/Pods-MedicineReminder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		143B2F01388CDF98410050F251E80C8C /* Build configuration list for PBXNativeTarget "Pods-MedicineReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02070653703B74FCA3569C4400F8E0A1 /* Debug */,
+				F0452EC17C2731A9D363C9B1502A84C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1391485F05B41BD35738A433056B7FA /* Debug */,
+				A105C1752A0A49B30ED621B71E226CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		650CBC519DEAFDEF3BC6E66EA1EFA1DA /* Build configuration list for PBXNativeTarget "Pods-MedicineReminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59573C4094C2D9A811570F644EF6ACB /* Debug */,
+				0DAC1C70275A8720FEC7217120F1DA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83EFF15A450A10474018A641564B94FC /* Build configuration list for PBXNativeTarget "FlexLib-FlexLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71551F262F5D06F5675148292D29BE21 /* Debug */,
+				354A3B2E6805F7553502D29B4E272A15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A460F83875DA678F17A8FE496A6A9315 /* Build configuration list for PBXNativeTarget "BEMCheckBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C73424BCE8EF9A60E80EB55899B05A5D /* Debug */,
+				D5CF24E800080C2C3D340596EAAE81FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB5F7E1DA1F144540447F92912B1C34B /* Build configuration list for PBXNativeTarget "Pods-MedicineReminderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9C855204D595D4E05785FB617FE870A /* Debug */,
+				77225751999CCC030310467AF84ED287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E247B679229F323E8B52D483BEDD7E55 /* Build configuration list for PBXNativeTarget "DZNEmptyDataSet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A06AAB8C70B5A4D900EC7DD6DFF26266 /* Debug */,
+				C8E9485B19D82A55482EE2382910AF1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F288BC81348880C7A30ADA4519AFFC62 /* Build configuration list for PBXNativeTarget "Yoga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD087809C949E984EE4B45FBE2898E25 /* Debug */,
+				6F976FDDE2A55106AFD97AD88AC6EAE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F774895B74D1EC3BBA4621636BD68835 /* Build configuration list for PBXNativeTarget "FlexLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E486273EC77ED829A17AB1616F6ACCF6 /* Debug */,
+				697188C6EC3A6EFB058275D32AEFEA11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
