@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ATMainTabViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    UINavigationController *tabVC = [[UINavigationController alloc] initWithRootViewController:[[ATMainTabViewController alloc] init]];
+    [self.window setRootViewController:tabVC];
     // Override point for customization after application launch.
     return YES;
 }

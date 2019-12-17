@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,12 @@
 		708EA17723A90E4000DD6D12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 708EA17623A90E4000DD6D12 /* main.m */; };
 		708EA18123A90E4000DD6D12 /* MedicineReminderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 708EA18023A90E4000DD6D12 /* MedicineReminderTests.m */; };
 		708EA18C23A90E4000DD6D12 /* MedicineReminderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 708EA18B23A90E4000DD6D12 /* MedicineReminderUITests.m */; };
+		708EA19D23A92E5000DD6D12 /* ATMainTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 708EA19B23A92E5000DD6D12 /* ATMainTabViewController.m */; };
+		708EA1A323A9331A00DD6D12 /* TakeMedAlertVC.xml in Resources */ = {isa = PBXBuildFile; fileRef = 708EA1A123A9331A00DD6D12 /* TakeMedAlertVC.xml */; };
+		708EA1A423A9331A00DD6D12 /* TakeMedAlertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 708EA1A223A9331A00DD6D12 /* TakeMedAlertVC.m */; };
+		708EA1A823A9333700DD6D12 /* TakeMedicienVC.xml in Resources */ = {isa = PBXBuildFile; fileRef = 708EA1A623A9333700DD6D12 /* TakeMedicienVC.xml */; };
+		708EA1A923A9333700DD6D12 /* TakeMedicienVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 708EA1A723A9333700DD6D12 /* TakeMedicienVC.m */; };
+		708EA1AE23A9338300DD6D12 /* tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 708EA1AB23A9338200DD6D12 /* tools.m */; };
 		A425A60385D0BECF8D423877 /* Pods_MedicineReminderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 129A949E325E147F1190D8AC /* Pods_MedicineReminderTests.framework */; };
 		B6D9DCAF012E91AF7F15DAD5 /* Pods_MedicineReminderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549C79036A24B1F8D8D9A762 /* Pods_MedicineReminderUITests.framework */; };
 		ECC793DA0C2EB4ED65FDD904 /* Pods_MedicineReminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAC26E00FCD7C9C9FABE882 /* Pods_MedicineReminder.framework */; };
@@ -60,6 +66,18 @@
 		708EA18723A90E4000DD6D12 /* MedicineReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicineReminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		708EA18B23A90E4000DD6D12 /* MedicineReminderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedicineReminderUITests.m; sourceTree = "<group>"; };
 		708EA18D23A90E4000DD6D12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		708EA19B23A92E5000DD6D12 /* ATMainTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATMainTabViewController.m; sourceTree = "<group>"; };
+		708EA19C23A92E5000DD6D12 /* ATMainTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATMainTabViewController.h; sourceTree = "<group>"; };
+		708EA1A023A9331A00DD6D12 /* TakeMedAlertVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TakeMedAlertVC.h; sourceTree = "<group>"; };
+		708EA1A123A9331A00DD6D12 /* TakeMedAlertVC.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TakeMedAlertVC.xml; sourceTree = "<group>"; };
+		708EA1A223A9331A00DD6D12 /* TakeMedAlertVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TakeMedAlertVC.m; sourceTree = "<group>"; };
+		708EA1A523A9333700DD6D12 /* TakeMedicienVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TakeMedicienVC.h; sourceTree = "<group>"; };
+		708EA1A623A9333700DD6D12 /* TakeMedicienVC.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TakeMedicienVC.xml; sourceTree = "<group>"; };
+		708EA1A723A9333700DD6D12 /* TakeMedicienVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TakeMedicienVC.m; sourceTree = "<group>"; };
+		708EA1AB23A9338200DD6D12 /* tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tools.m; sourceTree = "<group>"; };
+		708EA1AC23A9338200DD6D12 /* UIDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDefine.h; sourceTree = "<group>"; };
+		708EA1AD23A9338300DD6D12 /* tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tools.h; sourceTree = "<group>"; };
+		708EA1AF23A933BA00DD6D12 /* Med.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Med.pch; sourceTree = "<group>"; };
 		9EEE0FA0E36BAF71D957AE0A /* Pods-MedicineReminderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicineReminderUITests.release.xcconfig"; path = "Target Support Files/Pods-MedicineReminderUITests/Pods-MedicineReminderUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BAA3E6D89B4A9EECD7AA3599 /* Pods-MedicineReminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicineReminder.debug.xcconfig"; path = "Target Support Files/Pods-MedicineReminder/Pods-MedicineReminder.debug.xcconfig"; sourceTree = "<group>"; };
 		E17B73ECBA1829E26CCE748A /* Pods-MedicineReminderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicineReminderTests.release.xcconfig"; path = "Target Support Files/Pods-MedicineReminderTests/Pods-MedicineReminderTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +124,7 @@
 		708EA15B23A90E3E00DD6D12 = {
 			isa = PBXGroup;
 			children = (
+				708EA1AF23A933BA00DD6D12 /* Med.pch */,
 				708EA16623A90E3E00DD6D12 /* MedicineReminder */,
 				708EA17F23A90E4000DD6D12 /* MedicineReminderTests */,
 				708EA18A23A90E4000DD6D12 /* MedicineReminderUITests */,
@@ -128,6 +147,8 @@
 		708EA16623A90E3E00DD6D12 /* MedicineReminder */ = {
 			isa = PBXGroup;
 			children = (
+				708EA1AA23A9335B00DD6D12 /* lib */,
+				708EA19923A92D9B00DD6D12 /*  Controller */,
 				708EA16723A90E3E00DD6D12 /* AppDelegate.h */,
 				708EA16823A90E3E00DD6D12 /* AppDelegate.m */,
 				708EA16A23A90E3E00DD6D12 /* ViewController.h */,
@@ -159,6 +180,55 @@
 			path = MedicineReminderUITests;
 			sourceTree = "<group>";
 		};
+		708EA19923A92D9B00DD6D12 /*  Controller */ = {
+			isa = PBXGroup;
+			children = (
+				708EA19F23A92F0C00DD6D12 /* TakeMedAlertVC */,
+				708EA19E23A92EFB00DD6D12 /* TakeMedicienVC */,
+				708EA19A23A92E4000DD6D12 /* MainTabViewController */,
+			);
+			path = " Controller";
+			sourceTree = "<group>";
+		};
+		708EA19A23A92E4000DD6D12 /* MainTabViewController */ = {
+			isa = PBXGroup;
+			children = (
+				708EA19C23A92E5000DD6D12 /* ATMainTabViewController.h */,
+				708EA19B23A92E5000DD6D12 /* ATMainTabViewController.m */,
+			);
+			path = MainTabViewController;
+			sourceTree = "<group>";
+		};
+		708EA19E23A92EFB00DD6D12 /* TakeMedicienVC */ = {
+			isa = PBXGroup;
+			children = (
+				708EA1A523A9333700DD6D12 /* TakeMedicienVC.h */,
+				708EA1A623A9333700DD6D12 /* TakeMedicienVC.xml */,
+				708EA1A723A9333700DD6D12 /* TakeMedicienVC.m */,
+			);
+			path = TakeMedicienVC;
+			sourceTree = "<group>";
+		};
+		708EA19F23A92F0C00DD6D12 /* TakeMedAlertVC */ = {
+			isa = PBXGroup;
+			children = (
+				708EA1A023A9331A00DD6D12 /* TakeMedAlertVC.h */,
+				708EA1A123A9331A00DD6D12 /* TakeMedAlertVC.xml */,
+				708EA1A223A9331A00DD6D12 /* TakeMedAlertVC.m */,
+			);
+			path = TakeMedAlertVC;
+			sourceTree = "<group>";
+		};
+		708EA1AA23A9335B00DD6D12 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				708EA1AD23A9338300DD6D12 /* tools.h */,
+				708EA1AB23A9338200DD6D12 /* tools.m */,
+				708EA1AC23A9338200DD6D12 /* UIDefine.h */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
 		AF06D9C25E4343E40B94BE31 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,7 +239,6 @@
 				17840351209C4C214FFC0211 /* Pods-MedicineReminderUITests.debug.xcconfig */,
 				9EEE0FA0E36BAF71D957AE0A /* Pods-MedicineReminderUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -280,7 +349,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				708EA1A823A9333700DD6D12 /* TakeMedicienVC.xml in Resources */,
 				708EA17423A90E4000DD6D12 /* LaunchScreen.storyboard in Resources */,
+				708EA1A323A9331A00DD6D12 /* TakeMedAlertVC.xml in Resources */,
 				708EA17123A90E4000DD6D12 /* Assets.xcassets in Resources */,
 				708EA16F23A90E3E00DD6D12 /* Main.storyboard in Resources */,
 			);
@@ -393,9 +464,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				708EA19D23A92E5000DD6D12 /* ATMainTabViewController.m in Sources */,
 				708EA16C23A90E3E00DD6D12 /* ViewController.m in Sources */,
 				708EA17723A90E4000DD6D12 /* main.m in Sources */,
 				708EA16923A90E3E00DD6D12 /* AppDelegate.m in Sources */,
+				708EA1A423A9331A00DD6D12 /* TakeMedAlertVC.m in Sources */,
+				708EA1AE23A9338300DD6D12 /* tools.m in Sources */,
+				708EA1A923A9333700DD6D12 /* TakeMedicienVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,6 +644,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 429WZWZX68;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Med.pch";
 				INFOPLIST_FILE = MedicineReminder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -587,6 +665,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 429WZWZX68;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Med.pch";
 				INFOPLIST_FILE = MedicineReminder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

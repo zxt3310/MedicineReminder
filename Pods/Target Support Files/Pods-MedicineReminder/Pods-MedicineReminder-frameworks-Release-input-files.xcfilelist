@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-MedicineReminder/Pods-MedicineReminder-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AxcAE_TabBar/AxcAE_TabBar.framework
 ${BUILT_PRODUCTS_DIR}/BEMCheckBox/BEMCheckBox.framework
 ${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework
 ${BUILT_PRODUCTS_DIR}/FlexLib/FlexLib.framework
