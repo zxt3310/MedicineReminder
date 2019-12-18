@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UIView layout="flex:1" attr="bgColor:white">
-    
+    <UIView layout="flex:1,justifyContent:center,alignItems:center" attr="">
+        <FlexTouchView onPress="alertSet" layout="width:200,height:50,justifyContent:center,alignItems:center" attr="underlayColor:darkGray,bgColor:lightGray">
+            <UILabel name="" layout="" attr="fontSize:20,color:#333333,lineBreakMode:truncatingTail,linesNum:1,text:点我设定"/>
+        </FlexTouchView>
+
+        <UIView layout="height:50" attr="">
+        
+        </UIView>
+
+        <FlexTouchView onPress="alertDel" layout="width:200,height:50,justifyContent:center,alignItems:center" attr="underlayColor:darkGray,bgColor:lightGray">
+            <UILabel name="" layout="" attr="fontSize:20,color:#333333,lineBreakMode:truncatingTail,linesNum:1,text:点我取消"/>
+        </FlexTouchView>
+    </UIView>
 </UIView>

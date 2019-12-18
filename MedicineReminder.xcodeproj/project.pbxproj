@@ -23,6 +23,8 @@
 		708EA1AE23A9338300DD6D12 /* tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 708EA1AB23A9338200DD6D12 /* tools.m */; };
 		A425A60385D0BECF8D423877 /* Pods_MedicineReminderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 129A949E325E147F1190D8AC /* Pods_MedicineReminderTests.framework */; };
 		B6D9DCAF012E91AF7F15DAD5 /* Pods_MedicineReminderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549C79036A24B1F8D8D9A762 /* Pods_MedicineReminderUITests.framework */; };
+		B7C7436423AA2E3100558500 /* 4948.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7C7436323AA2E3100558500 /* 4948.wav */; };
+		B7C7436823AA360200558500 /* MedAleartUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C7436723AA360200558500 /* MedAleartUtil.m */; };
 		ECC793DA0C2EB4ED65FDD904 /* Pods_MedicineReminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAC26E00FCD7C9C9FABE882 /* Pods_MedicineReminder.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +81,10 @@
 		708EA1AD23A9338300DD6D12 /* tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tools.h; sourceTree = "<group>"; };
 		708EA1AF23A933BA00DD6D12 /* Med.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Med.pch; sourceTree = "<group>"; };
 		9EEE0FA0E36BAF71D957AE0A /* Pods-MedicineReminderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicineReminderUITests.release.xcconfig"; path = "Target Support Files/Pods-MedicineReminderUITests/Pods-MedicineReminderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B7C7436123AA09EF00558500 /* MedicineReminder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MedicineReminder.entitlements; sourceTree = "<group>"; };
+		B7C7436323AA2E3100558500 /* 4948.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 4948.wav; sourceTree = "<group>"; };
+		B7C7436623AA360200558500 /* MedAleartUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MedAleartUtil.h; sourceTree = "<group>"; };
+		B7C7436723AA360200558500 /* MedAleartUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedAleartUtil.m; sourceTree = "<group>"; };
 		BAA3E6D89B4A9EECD7AA3599 /* Pods-MedicineReminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicineReminder.debug.xcconfig"; path = "Target Support Files/Pods-MedicineReminder/Pods-MedicineReminder.debug.xcconfig"; sourceTree = "<group>"; };
 		E17B73ECBA1829E26CCE748A /* Pods-MedicineReminderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicineReminderTests.release.xcconfig"; path = "Target Support Files/Pods-MedicineReminderTests/Pods-MedicineReminderTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,6 +153,8 @@
 		708EA16623A90E3E00DD6D12 /* MedicineReminder */ = {
 			isa = PBXGroup;
 			children = (
+				B7C7436223AA2E2000558500 /* source */,
+				B7C7436123AA09EF00558500 /* MedicineReminder.entitlements */,
 				708EA1AA23A9335B00DD6D12 /* lib */,
 				708EA19923A92D9B00DD6D12 /*  Controller */,
 				708EA16723A90E3E00DD6D12 /* AppDelegate.h */,
@@ -222,6 +230,7 @@
 		708EA1AA23A9335B00DD6D12 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				B7C7436523AA35BE00558500 /* MedAleartUtil */,
 				708EA1AD23A9338300DD6D12 /* tools.h */,
 				708EA1AB23A9338200DD6D12 /* tools.m */,
 				708EA1AC23A9338200DD6D12 /* UIDefine.h */,
@@ -240,6 +249,23 @@
 				9EEE0FA0E36BAF71D957AE0A /* Pods-MedicineReminderUITests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		B7C7436223AA2E2000558500 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				B7C7436323AA2E3100558500 /* 4948.wav */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		B7C7436523AA35BE00558500 /* MedAleartUtil */ = {
+			isa = PBXGroup;
+			children = (
+				B7C7436623AA360200558500 /* MedAleartUtil.h */,
+				B7C7436723AA360200558500 /* MedAleartUtil.m */,
+			);
+			path = MedAleartUtil;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,6 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				708EA1A823A9333700DD6D12 /* TakeMedicienVC.xml in Resources */,
+				B7C7436423AA2E3100558500 /* 4948.wav in Resources */,
 				708EA17423A90E4000DD6D12 /* LaunchScreen.storyboard in Resources */,
 				708EA1A323A9331A00DD6D12 /* TakeMedAlertVC.xml in Resources */,
 				708EA17123A90E4000DD6D12 /* Assets.xcassets in Resources */,
@@ -471,6 +498,7 @@
 				708EA1A423A9331A00DD6D12 /* TakeMedAlertVC.m in Sources */,
 				708EA1AE23A9338300DD6D12 /* tools.m in Sources */,
 				708EA1A923A9333700DD6D12 /* TakeMedicienVC.m in Sources */,
+				B7C7436823AA360200558500 /* MedAleartUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,6 +670,7 @@
 			baseConfigurationReference = BAA3E6D89B4A9EECD7AA3599 /* Pods-MedicineReminder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MedicineReminder/MedicineReminder.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 429WZWZX68;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
@@ -663,6 +692,7 @@
 			baseConfigurationReference = 0CE4F5B2675AF003DF68715C /* Pods-MedicineReminder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MedicineReminder/MedicineReminder.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 429WZWZX68;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;

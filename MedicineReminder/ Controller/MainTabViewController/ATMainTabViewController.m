@@ -34,6 +34,7 @@
     [vcDicAry enumerateObjectsUsingBlock:^(NSDictionary *obj,NSUInteger idx,BOOL *stop){
         AxcAE_TabBarConfigModel *model =[[AxcAE_TabBarConfigModel alloc] init];
         model.itemTitle = [obj objectForKey:@"itemTitle"];
+        model.selectColor = colorFromString(@"#d4237a", nil);
         model.selectImageName = [obj objectForKey:@"selectImg"];
         model.normalImageName = [obj objectForKey:@"normalImg"];
         model.titleLabel.font = [UIFont systemFontOfSize:14];

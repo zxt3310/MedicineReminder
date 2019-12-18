@@ -8,8 +8,9 @@
 
 #import "AppDelegate.h"
 #import "ATMainTabViewController.h"
+#import <UserNotifications/UserNotifications.h>
 
-@interface AppDelegate ()
+@interface AppDelegate ()<UNUserNotificationCenterDelegate>
 
 @end
 
@@ -19,6 +20,18 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     UINavigationController *tabVC = [[UINavigationController alloc] initWithRootViewController:[[ATMainTabViewController alloc] init]];
     [self.window setRootViewController:tabVC];
+    
+    if (@available(iOS 10, *)){
+        [[UNUserNotificationCenter currentNotificationCenter] requestAuthorizationWithOptions:UNAuthorizationOptionAlert|UNAuthorizationOptionSound
+                                                                            completionHandler:^(BOOL granted, NSError * _Nullable error) {
+            
+        }];
+    }else{
+        [[UIApplication sharedApplication] registerUserNotificationSettings:[UIUserNotificationSettings
+                                                                             settingsForTypes:UIUserNotificationTypeAlert|UIUserNotificationTypeSound categories:nil]];
+    }
+        
+    
     // Override point for customization after application launch.
     return YES;
 }
@@ -50,5 +63,13 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+//ios8以后 10以前
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification{
+    
+}
+//ios 10以后
+- (void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void (^)(void))completionHandler{
+    
+}
 
 @end
