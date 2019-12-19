@@ -24,7 +24,9 @@
     if (@available(iOS 10, *)){
         [[UNUserNotificationCenter currentNotificationCenter] requestAuthorizationWithOptions:UNAuthorizationOptionAlert|UNAuthorizationOptionSound
                                                                             completionHandler:^(BOOL granted, NSError * _Nullable error) {
-            
+            if (granted) {
+                [[UNUserNotificationCenter currentNotificationCenter] removeAllDeliveredNotifications];
+            }
         }];
     }else{
         [[UIApplication sharedApplication] registerUserNotificationSettings:[UIUserNotificationSettings

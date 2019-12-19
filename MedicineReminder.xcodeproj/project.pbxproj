@@ -25,6 +25,9 @@
 		B6D9DCAF012E91AF7F15DAD5 /* Pods_MedicineReminderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549C79036A24B1F8D8D9A762 /* Pods_MedicineReminderUITests.framework */; };
 		B7C7436423AA2E3100558500 /* 4948.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7C7436323AA2E3100558500 /* 4948.wav */; };
 		B7C7436823AA360200558500 /* MedAleartUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C7436723AA360200558500 /* MedAleartUtil.m */; };
+		B7C7436C23AB852E00558500 /* MRMedicine.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C7436B23AB852E00558500 /* MRMedicine.m */; };
+		B7C7436F23AB854800558500 /* MRAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C7436E23AB854800558500 /* MRAlert.m */; };
+		B7C7437323AB8A9100558500 /* MRLocalizeData.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C7437223AB8A9100558500 /* MRLocalizeData.m */; };
 		ECC793DA0C2EB4ED65FDD904 /* Pods_MedicineReminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAC26E00FCD7C9C9FABE882 /* Pods_MedicineReminder.framework */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +88,12 @@
 		B7C7436323AA2E3100558500 /* 4948.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 4948.wav; sourceTree = "<group>"; };
 		B7C7436623AA360200558500 /* MedAleartUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MedAleartUtil.h; sourceTree = "<group>"; };
 		B7C7436723AA360200558500 /* MedAleartUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedAleartUtil.m; sourceTree = "<group>"; };
+		B7C7436A23AB852E00558500 /* MRMedicine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRMedicine.h; sourceTree = "<group>"; };
+		B7C7436B23AB852E00558500 /* MRMedicine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRMedicine.m; sourceTree = "<group>"; };
+		B7C7436D23AB854800558500 /* MRAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRAlert.h; sourceTree = "<group>"; };
+		B7C7436E23AB854800558500 /* MRAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRAlert.m; sourceTree = "<group>"; };
+		B7C7437123AB8A9100558500 /* MRLocalizeData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRLocalizeData.h; sourceTree = "<group>"; };
+		B7C7437223AB8A9100558500 /* MRLocalizeData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRLocalizeData.m; sourceTree = "<group>"; };
 		BAA3E6D89B4A9EECD7AA3599 /* Pods-MedicineReminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicineReminder.debug.xcconfig"; path = "Target Support Files/Pods-MedicineReminder/Pods-MedicineReminder.debug.xcconfig"; sourceTree = "<group>"; };
 		E17B73ECBA1829E26CCE748A /* Pods-MedicineReminderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicineReminderTests.release.xcconfig"; path = "Target Support Files/Pods-MedicineReminderTests/Pods-MedicineReminderTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -230,6 +239,7 @@
 		708EA1AA23A9335B00DD6D12 /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				B7C7436923AB84F400558500 /* Model */,
 				B7C7436523AA35BE00558500 /* MedAleartUtil */,
 				708EA1AD23A9338300DD6D12 /* tools.h */,
 				708EA1AB23A9338200DD6D12 /* tools.m */,
@@ -266,6 +276,19 @@
 				B7C7436723AA360200558500 /* MedAleartUtil.m */,
 			);
 			path = MedAleartUtil;
+			sourceTree = "<group>";
+		};
+		B7C7436923AB84F400558500 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7C7436A23AB852E00558500 /* MRMedicine.h */,
+				B7C7436B23AB852E00558500 /* MRMedicine.m */,
+				B7C7436D23AB854800558500 /* MRAlert.h */,
+				B7C7436E23AB854800558500 /* MRAlert.m */,
+				B7C7437123AB8A9100558500 /* MRLocalizeData.h */,
+				B7C7437223AB8A9100558500 /* MRLocalizeData.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -494,11 +517,14 @@
 				708EA19D23A92E5000DD6D12 /* ATMainTabViewController.m in Sources */,
 				708EA16C23A90E3E00DD6D12 /* ViewController.m in Sources */,
 				708EA17723A90E4000DD6D12 /* main.m in Sources */,
+				B7C7436F23AB854800558500 /* MRAlert.m in Sources */,
 				708EA16923A90E3E00DD6D12 /* AppDelegate.m in Sources */,
 				708EA1A423A9331A00DD6D12 /* TakeMedAlertVC.m in Sources */,
 				708EA1AE23A9338300DD6D12 /* tools.m in Sources */,
 				708EA1A923A9333700DD6D12 /* TakeMedicienVC.m in Sources */,
 				B7C7436823AA360200558500 /* MedAleartUtil.m in Sources */,
+				B7C7437323AB8A9100558500 /* MRLocalizeData.m in Sources */,
+				B7C7436C23AB852E00558500 /* MRMedicine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,13 +703,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Med.pch";
 				INFOPLIST_FILE = MedicineReminder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rank.MedicineReminder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -699,13 +726,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Med.pch";
 				INFOPLIST_FILE = MedicineReminder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rank.MedicineReminder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -65,6 +65,7 @@
 
 - (void)axcAE_TabBar:(AxcAE_TabBar *)tabbar selectIndex:(NSInteger)index{
     if (index == 1) {
+        [[UIApplication sharedApplication] cancelAllLocalNotifications];
         AxcAE_TabBarItem *item = tabbar.tabBarItems[lastIdx];
         item.isSelect = YES;
         return;

@@ -10,6 +10,8 @@ target 'MedicineReminder' do
   pod 'DZNEmptyDataSet'
   
   pod 'AxcAE_TabBar'
+  
+  pod 'YYModel'
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 

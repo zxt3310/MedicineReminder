@@ -4,51 +4,78 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AxcAE_TabBar.xcscheme_^#shared#^_</key>
+		<key>AxcAE_TabBar.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>BEMCheckBox.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>BEMCheckBox.xcscheme_^#shared#^_</key>
+		<key>DZNEmptyDataSet.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>DZNEmptyDataSet.xcscheme_^#shared#^_</key>
+		<key>FlexLib-FlexLib.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
-		</dict>
-		<key>FlexLib-FlexLib.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>5</integer>
-		</dict>
-		<key>FlexLib.xcscheme_^#shared#^_</key>
-		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
-		<key>Pods-MedicineReminder.xcscheme_^#shared#^_</key>
+		<key>FlexLib.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-MedicineReminder.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>Pods-MedicineReminderTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
-		<key>Pods-MedicineReminderTests.xcscheme_^#shared#^_</key>
+		<key>Pods-MedicineReminderUITests.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
-		<key>Pods-MedicineReminderUITests.xcscheme_^#shared#^_</key>
+		<key>YYModel.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>8</integer>
-		</dict>
-		<key>Yoga.xcscheme_^#shared#^_</key>
-		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>Yoga.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict/>
 </dict>
 </plist>
