@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIView layout="flex:1" attr="bgColor:white">
+    <UIView layout="padding:20" attr="bgColor:#d1d1d1">
+        <UILabel name="" layout="" attr="fontSize:18,color:#333333,lineBreakMode:truncatingTail,linesNum:1,text:填写药品信息"/>
+    </UIView>
+
+    <UIView layout="padding:20,flex:1" attr="">
+        <UIView layout="marginBottom:20" attr="">
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,lineBreakMode:truncatingTail,linesNum:1,text:药品普名"/>
+            <UITextField name="medComNameTF" layout="height:40" attr="fontSize:14,color:black,textAlign:left,placeholder:中文名称,text:"/>
+            <UIView layout="height:1" attr="bgColor:#d1d1d1"/>
+        </UIView>
+
+        <UIView layout="marginBottom:20" attr="">
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,lineBreakMode:truncatingTail,linesNum:1,text:药品学名"/>
+            <UITextField name="medProNameTF" layout="height:40" attr="fontSize:14,color:black,textAlign:left,placeholder:化学名称,text:"/>
+            <UIView layout="height:1" attr="bgColor:#d1d1d1"/>
+        </UIView>
+
+        <UIView layout="marginBottom:20" attr="">
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,lineBreakMode:truncatingTail,linesNum:1,text:生产商"/>
+            <UITextField name="companyTF" layout="height:40" attr="fontSize:14,color:black,textAlign:left,placeholder:生产厂商,text:"/>
+            <UIView layout="height:1" attr="bgColor:#d1d1d1"/>
+        </UIView>
+
+        <UIView layout="marginBottom:20" attr="">
+            <UILabel name="" layout="" attr="fontSize:14,color:#333333,lineBreakMode:truncatingTail,linesNum:1,text:功能"/>
+            <UITextField name="funcTF" layout="height:40" attr="fontSize:14,color:black,textAlign:left,placeholder:主治症状,text:"/>
+            <UIView layout="height:1" attr="bgColor:#d1d1d1"/>
+        </UIView>
+
+        <UIView layout="flexDirection:row,justifyContent:space-between" attr="">
+            <UIView layout="width:40%" attr="">
+                <UILabel name="" layout="" attr="fontSize:14,color:#333333,lineBreakMode:truncatingTail,linesNum:1,text:单位"/>
+                <UITextField name="unitTF" layout="height:40" attr="fontSize:14,color:black,textAlign:left,placeholder:请选择,text:"/>
+                <UIView layout="height:1" attr="bgColor:#d1d1d1"/>
+            </UIView>
+            <UIView layout="width:40%" attr="">
+                <UILabel name="" layout="" attr="fontSize:14,color:#333333,lineBreakMode:truncatingTail,linesNum:1,text:剂量"/>
+                <UITextField name="doseTF" layout="height:40" attr="fontSize:14,color:black,textAlign:left,placeholder:Number,text:"/>
+                <UIView layout="height:1" attr="bgColor:#d1d1d1"/>
+            </UIView>
+        </UIView>
+        
+        <UIView layout="flex:1,justifyContent:center,alignItems:center" attr="">
+            <FlexTouchView onPress="confirm" layout="width:120,height:40,justifyContent:center,alignItems:center" attr="borderWidth:1,borderRadius:20,bgColor:blue,underlayColor:lightGray">
+                <UILabel name="" layout="" attr="fontSize:14,color:white,lineBreakMode:truncatingTail,linesNum:1,text:确认"/>
+            </FlexTouchView>
+        </UIView>
+        
+    </UIView>
+    
+</UIView>

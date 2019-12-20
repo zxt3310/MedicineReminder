@@ -9,6 +9,7 @@
 #import "ATMainTabViewController.h"
 #import "TakeMedAlertVC.h"
 #import "TakeMedicienVC.h"
+#import "MRMedicineAddVC.h"
 #import <AxcAE_TabBar.h>
 
 @interface ATMainTabViewController()<AxcAE_TabBarDelegate>
@@ -68,6 +69,10 @@
         [[UIApplication sharedApplication] cancelAllLocalNotifications];
         AxcAE_TabBarItem *item = tabbar.tabBarItems[lastIdx];
         item.isSelect = YES;
+        
+        MRMedicineAddVC *medAdd = [[MRMedicineAddVC alloc] init];
+        [self.navigationController pushViewController:medAdd animated:YES];
+        
         return;
     }
     [self setSelectedIndex:index];

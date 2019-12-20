@@ -28,6 +28,8 @@
 		B7C7436C23AB852E00558500 /* MRMedicine.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C7436B23AB852E00558500 /* MRMedicine.m */; };
 		B7C7436F23AB854800558500 /* MRAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C7436E23AB854800558500 /* MRAlert.m */; };
 		B7C7437323AB8A9100558500 /* MRLocalizeData.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C7437223AB8A9100558500 /* MRLocalizeData.m */; };
+		B7C7437923AC7D9E00558500 /* MRMedicineAddVC.xml in Resources */ = {isa = PBXBuildFile; fileRef = B7C7437723AC7D9E00558500 /* MRMedicineAddVC.xml */; };
+		B7C7437A23AC7D9E00558500 /* MRMedicineAddVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C7437823AC7D9E00558500 /* MRMedicineAddVC.m */; };
 		ECC793DA0C2EB4ED65FDD904 /* Pods_MedicineReminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BAC26E00FCD7C9C9FABE882 /* Pods_MedicineReminder.framework */; };
 /* End PBXBuildFile section */
 
@@ -94,6 +96,9 @@
 		B7C7436E23AB854800558500 /* MRAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRAlert.m; sourceTree = "<group>"; };
 		B7C7437123AB8A9100558500 /* MRLocalizeData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRLocalizeData.h; sourceTree = "<group>"; };
 		B7C7437223AB8A9100558500 /* MRLocalizeData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRLocalizeData.m; sourceTree = "<group>"; };
+		B7C7437623AC7D9E00558500 /* MRMedicineAddVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRMedicineAddVC.h; sourceTree = "<group>"; };
+		B7C7437723AC7D9E00558500 /* MRMedicineAddVC.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MRMedicineAddVC.xml; sourceTree = "<group>"; };
+		B7C7437823AC7D9E00558500 /* MRMedicineAddVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRMedicineAddVC.m; sourceTree = "<group>"; };
 		BAA3E6D89B4A9EECD7AA3599 /* Pods-MedicineReminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicineReminder.debug.xcconfig"; path = "Target Support Files/Pods-MedicineReminder/Pods-MedicineReminder.debug.xcconfig"; sourceTree = "<group>"; };
 		E17B73ECBA1829E26CCE748A /* Pods-MedicineReminderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicineReminderTests.release.xcconfig"; path = "Target Support Files/Pods-MedicineReminderTests/Pods-MedicineReminderTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -200,8 +205,10 @@
 		708EA19923A92D9B00DD6D12 /*  Controller */ = {
 			isa = PBXGroup;
 			children = (
-				708EA19F23A92F0C00DD6D12 /* TakeMedAlertVC */,
+				B7C7437523AC7D8200558500 /* AddAlertVC */,
+				B7C7437423AC7D7400558500 /* AddMedicineVC */,
 				708EA19E23A92EFB00DD6D12 /* TakeMedicienVC */,
+				708EA19F23A92F0C00DD6D12 /* TakeMedAlertVC */,
 				708EA19A23A92E4000DD6D12 /* MainTabViewController */,
 			);
 			path = " Controller";
@@ -289,6 +296,23 @@
 				B7C7437223AB8A9100558500 /* MRLocalizeData.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B7C7437423AC7D7400558500 /* AddMedicineVC */ = {
+			isa = PBXGroup;
+			children = (
+				B7C7437623AC7D9E00558500 /* MRMedicineAddVC.h */,
+				B7C7437723AC7D9E00558500 /* MRMedicineAddVC.xml */,
+				B7C7437823AC7D9E00558500 /* MRMedicineAddVC.m */,
+			);
+			path = AddMedicineVC;
+			sourceTree = "<group>";
+		};
+		B7C7437523AC7D8200558500 /* AddAlertVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AddAlertVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -402,6 +426,7 @@
 				B7C7436423AA2E3100558500 /* 4948.wav in Resources */,
 				708EA17423A90E4000DD6D12 /* LaunchScreen.storyboard in Resources */,
 				708EA1A323A9331A00DD6D12 /* TakeMedAlertVC.xml in Resources */,
+				B7C7437923AC7D9E00558500 /* MRMedicineAddVC.xml in Resources */,
 				708EA17123A90E4000DD6D12 /* Assets.xcassets in Resources */,
 				708EA16F23A90E3E00DD6D12 /* Main.storyboard in Resources */,
 			);
@@ -525,6 +550,7 @@
 				B7C7436823AA360200558500 /* MedAleartUtil.m in Sources */,
 				B7C7437323AB8A9100558500 /* MRLocalizeData.m in Sources */,
 				B7C7436C23AB852E00558500 /* MRMedicine.m in Sources */,
+				B7C7437A23AC7D9E00558500 /* MRMedicineAddVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

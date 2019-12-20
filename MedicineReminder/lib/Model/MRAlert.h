@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MRAlert : NSObject <YYModel>
+@interface MRAlert : MRCodeBaseObj
 
 @property NSString *title;
 

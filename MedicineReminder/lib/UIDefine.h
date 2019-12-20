@@ -69,6 +69,10 @@
 # define DLog(...);
 #endif
 
+/*本地化存储*/
+
+#define LocalStore @"storeData"
+
 #endif /* UIDefine_h */
 
 

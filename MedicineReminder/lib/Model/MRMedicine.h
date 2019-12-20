@@ -8,12 +8,18 @@
 
 #import <Foundation/Foundation.h>
 
+
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MRMedicine : NSObject
+@interface MRCodeBaseObj : NSObject <YYModel,NSSecureCoding>
+
+@end
+
+@interface MRMedicine : MRCodeBaseObj
 
 @property NSString *com_name;
 @property NSString *pro_name;
+@property NSString *function;
 @property NSString *unit;
 @property float dose;
 @property NSString *supplier;

@@ -11,11 +11,19 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MRLocalizeData : NSObject <YYModel>
+@interface MRLocalizeData : MRCodeBaseObj
 
 @property NSArray <MRAlert *> *alerts;
 
 @property NSArray <MRMedicine *> *medicines;
+
++ (instancetype)sharedData;
+
+- (void)save;
+
++ (instancetype)load;
+//读取音频文件
+- (void)loadWAV;
 
 @end
 

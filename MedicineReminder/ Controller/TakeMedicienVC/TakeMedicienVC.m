@@ -9,5 +9,9 @@
 #import "TakeMedicienVC.h"
 
 @implementation TakeMedicienVC
-
+- (void)viewDidLoad{
+    [super viewDidLoad];
+    
+    
+}
 @end
